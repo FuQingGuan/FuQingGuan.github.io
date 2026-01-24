@@ -161,1001 +161,1087 @@
       }
     }
     detectApple()
-    })(window)</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/universe.css"><link rel="stylesheet" href="/css/universe.css"><svg aria-hidden="true" style="position:absolute; overflow:hidden; width:0; height:0"><symbol id="icon-sun" viewBox="0 0 1024 1024"><path d="M960 512l-128 128v192h-192l-128 128-128-128H192v-192l-128-128 128-128V192h192l128-128 128 128h192v192z" fill="#FFD878" p-id="8420"></path><path d="M736 512a224 224 0 1 0-448 0 224 224 0 1 0 448 0z" fill="#FFE4A9" p-id="8421"></path><path d="M512 109.248L626.752 224H800v173.248L914.752 512 800 626.752V800h-173.248L512 914.752 397.248 800H224v-173.248L109.248 512 224 397.248V224h173.248L512 109.248M512 64l-128 128H192v192l-128 128 128 128v192h192l128 128 128-128h192v-192l128-128-128-128V192h-192l-128-128z" fill="#4D5152" p-id="8422"></path><path d="M512 320c105.888 0 192 86.112 192 192s-86.112 192-192 192-192-86.112-192-192 86.112-192 192-192m0-32a224 224 0 1 0 0 448 224 224 0 0 0 0-448z" fill="#4D5152" p-id="8423"></path></symbol><symbol id="icon-moon" viewBox="0 0 1024 1024"><path d="M611.370667 167.082667a445.013333 445.013333 0 0 1-38.4 161.834666 477.824 477.824 0 0 1-244.736 244.394667 445.141333 445.141333 0 0 1-161.109334 38.058667 85.077333 85.077333 0 0 0-65.066666 135.722666A462.08 462.08 0 1 0 747.093333 102.058667a85.077333 85.077333 0 0 0-135.722666 65.024z" fill="#FFB531" p-id="11345"></path><path d="M329.728 274.133333l35.157333-35.157333a21.333333 21.333333 0 1 0-30.165333-30.165333l-35.157333 35.157333-35.114667-35.157333a21.333333 21.333333 0 0 0-30.165333 30.165333l35.114666 35.157333-35.114666 35.157334a21.333333 21.333333 0 1 0 30.165333 30.165333l35.114667-35.157333 35.157333 35.157333a21.333333 21.333333 0 1 0 30.165333-30.165333z" fill="#030835" p-id="11346"></path></symbol></svg><meta name="generator" content="Hexo 6.3.0"><link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet" /></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://oss.yiki.tech/jlpt/20260104192808833.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/bangumis"><i class="fa-fw fas fa-play"></i><span> blibli</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://oss.yiki.tech/jlpt/20260119151009333.png')"><nav id="nav"><span id="blog-info"><a href="/" title="Guan FuQing's Blog"><span class="site-name">Guan FuQing's Blog</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/bangumis"><i class="fa-fw fas fa-play"></i><span> blibli</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">会社の場所（四）</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-01-19T06:11:12.000Z" title="发表于 2026-01-19 14:11:12">2026-01-19</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-01-23T08:06:33.475Z" title="更新于 2026-01-23 16:06:33">2026-01-23</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/">日本語</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="会社の場所（四）"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="🏁-N5-会社の場所（四）"><a href="#🏁-N5-会社の場所（四）" class="headerlink" title="🏁 N5 会社の場所（四）"></a>🏁 N5 会社の場所（四）</h1><h2 id="🏆-学习目标"><a href="#🏆-学习目标" class="headerlink" title="🏆 学习目标"></a>🏆 学习目标</h2><ul>
+    })(window)</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/universe.css"><link rel="stylesheet" href="/css/universe.css"><svg aria-hidden="true" style="position:absolute; overflow:hidden; width:0; height:0"><symbol id="icon-sun" viewBox="0 0 1024 1024"><path d="M960 512l-128 128v192h-192l-128 128-128-128H192v-192l-128-128 128-128V192h192l128-128 128 128h192v192z" fill="#FFD878" p-id="8420"></path><path d="M736 512a224 224 0 1 0-448 0 224 224 0 1 0 448 0z" fill="#FFE4A9" p-id="8421"></path><path d="M512 109.248L626.752 224H800v173.248L914.752 512 800 626.752V800h-173.248L512 914.752 397.248 800H224v-173.248L109.248 512 224 397.248V224h173.248L512 109.248M512 64l-128 128H192v192l-128 128 128 128v192h192l128 128 128-128h192v-192l128-128-128-128V192h-192l-128-128z" fill="#4D5152" p-id="8422"></path><path d="M512 320c105.888 0 192 86.112 192 192s-86.112 192-192 192-192-86.112-192-192 86.112-192 192-192m0-32a224 224 0 1 0 0 448 224 224 0 0 0 0-448z" fill="#4D5152" p-id="8423"></path></symbol><symbol id="icon-moon" viewBox="0 0 1024 1024"><path d="M611.370667 167.082667a445.013333 445.013333 0 0 1-38.4 161.834666 477.824 477.824 0 0 1-244.736 244.394667 445.141333 445.141333 0 0 1-161.109334 38.058667 85.077333 85.077333 0 0 0-65.066666 135.722666A462.08 462.08 0 1 0 747.093333 102.058667a85.077333 85.077333 0 0 0-135.722666 65.024z" fill="#FFB531" p-id="11345"></path><path d="M329.728 274.133333l35.157333-35.157333a21.333333 21.333333 0 1 0-30.165333-30.165333l-35.157333 35.157333-35.114667-35.157333a21.333333 21.333333 0 0 0-30.165333 30.165333l35.114666 35.157333-35.114666 35.157334a21.333333 21.333333 0 1 0 30.165333 30.165333l35.114667-35.157333 35.157333 35.157333a21.333333 21.333333 0 1 0 30.165333-30.165333z" fill="#030835" p-id="11346"></path></symbol></svg><meta name="generator" content="Hexo 6.3.0"><link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet" /></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://oss.yiki.tech/jlpt/20260104192808833.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/bangumis"><i class="fa-fw fas fa-play"></i><span> blibli</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://oss.yiki.tech/jlpt/20260119151009333.png')"><nav id="nav"><span id="blog-info"><a href="/" title="Guan FuQing's Blog"><span class="site-name">Guan FuQing's Blog</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/bangumis"><i class="fa-fw fas fa-play"></i><span> blibli</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">会社の場所（四）</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-01-19T06:11:12.000Z" title="发表于 2026-01-19 14:11:12">2026-01-19</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-01-23T08:06:33.475Z" title="更新于 2026-01-23 16:06:33">2026-01-23</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/">日本語</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="会社の場所（四）"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="🏁-n5-会社の場所-四">🏁 N5 会社の場所（四）</h1>
+<h2 id="🏆-学习目标">🏆 学习目标</h2>
+<ul>
 <li>🏫 能够介绍某物所在的位置</li>
 <li>🏢 能够介绍某个地点场所有某物</li>
 <li>💭 能够表达并列关系</li>
 </ul>
-<h2 id="⭐-重点单词"><a href="#⭐-重点单词" class="headerlink" title="⭐ 重点单词"></a>⭐ 重点单词</h2><p><img src="https://oss.yiki.tech/jlpt/20260121044646934.png"></p>
-<h3 id="📍-方位相关"><a href="#📍-方位相关" class="headerlink" title="📍 方位相关"></a>📍 方位相关</h3><table>
-<thead>
-<tr>
-<th align="center">🧭 单词</th>
-<th align="center">🎵 音调</th>
-<th align="center">🏷️ 词性</th>
-<th align="center">💬 解释</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">⬆️ <ruby>上<rt>うえ</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>上面 / 上方</code>。表示某物<strong>正上方的位置</strong>，强调垂直方向的“上”。常与「の」连用，如：机の上。</td>
-</tr>
-<tr>
-<td align="center">⬇️ <ruby>下<rt>した</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>下面 / 下方</code>。表示某物<strong>正下方的位置</strong>，与「上」成对使用。常见搭配：椅子の下。</td>
-</tr>
-<tr>
-<td align="center">📦 <ruby>中<rt>なか</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>里面 / 中间</code>。表示<strong>被包围的内部空间</strong>，如箱子、房间、包的里面。</td>
-</tr>
-<tr>
-<td align="center">🚪 <ruby>外<rt>そと</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>外面</code>。表示<strong>不在内部的区域</strong>，与「中」相对，如：建物の外。</td>
-</tr>
-<tr>
-<td align="center">👉 <ruby>前<rt>まえ</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>前面</code>。表示<strong>面向方向的前方</strong>，也可表示时间上的“之前”（初级阶段先记空间用法）。</td>
-</tr>
-<tr>
-<td align="center">👈 <ruby>後ろ<rt>うしろ</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>后面 / 后方</code>。表示物体或人的背后位置，与「前」相对使用。</td>
-</tr>
-<tr>
-<td align="center">📍 <ruby>近く<rt>ちかく</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>附近 / 近旁</code>。表示<strong>距离较近但不紧贴</strong>的位置，语感比「となり」更宽泛。</td>
-</tr>
-</tbody></table>
-<h3 id="🏢-场所相关"><a href="#🏢-场所相关" class="headerlink" title="🏢 场所相关"></a>🏢 场所相关</h3><table>
-<thead>
-<tr>
-<th align="center">🏢 单词</th>
-<th align="center">🎵 音调</th>
-<th align="center">🏷️ 词性</th>
-<th align="center">💬 解释</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">🌸 <ruby>花屋<rt>はなや</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>花店</code>。出售鲜花、花束的店铺。「～屋」表示“卖某种东西的店”。</td>
-</tr>
-<tr>
-<td align="center">🏫 <ruby>教室<rt>きょうしつ</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>教室</code>。上课用的房间，常见搭配：教室の中／教室の前。</td>
-</tr>
-<tr>
-<td align="center">🗂️ <ruby>会議室<rt>かいぎしつ</rt></ruby></td>
-<td align="center">③</td>
-<td align="center">名词</td>
-<td align="center"><code>会议室</code>。公司或学校里<strong>开会专用的房间</strong>。</td>
-</tr>
-<tr>
-<td align="center">📚 <ruby>図書室<rt>としょしつ</rt></ruby></td>
-<td align="center">②</td>
-<td align="center">名词</td>
-<td align="center"><code>图书室</code>。学校或机构内部的阅读空间，<strong>不同于「図書館」</strong>（公共图书馆）。</td>
-</tr>
-<tr>
-<td align="center">🌳 <ruby>公園<rt>こうえん</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>公园</code>。供休息、散步、娱乐的公共场所。</td>
-</tr>
-<tr>
-<td align="center">🏠 <ruby>家<rt>いえ</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>家 / 房子</code>。强调<strong>建筑本身或居住的地方</strong>，偏物理空间。</td>
-</tr>
-<tr>
-<td align="center">🚪 <ruby>部屋<rt>へや</rt></ruby></td>
-<td align="center">②</td>
-<td align="center">名词</td>
-<td align="center"><code>房间</code>。房子内部的一个空间，如卧室、教室、会议室等。</td>
-</tr>
-</tbody></table>
-<h3 id="🚇-交通相关"><a href="#🚇-交通相关" class="headerlink" title="🚇 交通相关"></a>🚇 交通相关</h3><table>
-<thead>
-<tr>
-<th align="center">🚇 单词</th>
-<th align="center">🎵 音调</th>
-<th align="center">🏷️ 词性</th>
-<th align="center">💬 解释</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">🚇 <ruby>地下鉄<rt>ちかてつ</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>地铁</code>。在地下运行的城市公共交通工具。常与「で」搭配表示交通方式，如：地下鉄で行きます。</td>
-</tr>
-<tr>
-<td align="center">🚉 <ruby>駅<rt>えき</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>车站</code>。火车、电车、地铁等的停靠站点。使用频率极高，如：駅の前／駅に行きます。</td>
-</tr>
-</tbody></table>
-<h3 id="👨‍👩‍👧‍👦-人物相关"><a href="#👨‍👩‍👧‍👦-人物相关" class="headerlink" title="👨‍👩‍👧‍👦 人物相关"></a>👨‍👩‍👧‍👦 人物相关</h3><table>
-<thead>
-<tr>
-<th align="center">👤 单词</th>
-<th align="center">🎵 音调</th>
-<th align="center">🏷️ 词性</th>
-<th align="center">💬 解释</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">👶 <ruby>子供<rt>こども</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>孩子、小孩</code>。泛指儿童，不区分性别。可指自己的孩子或一般的孩子。</td>
-</tr>
-<tr>
-<td align="center">👨‍👩‍👧 <ruby>両親<rt>りょうしん</rt></ruby></td>
-<td align="center">①</td>
-<td align="center">名词</td>
-<td align="center"><code>父母</code>。指父亲和母亲两个人的总称，常用于较正式或书面表达。</td>
-</tr>
-<tr>
-<td align="center">👨‍👩‍👧‍👦 <ruby>兄弟<rt>きょうだい</rt></ruby></td>
-<td align="center">①</td>
-<td align="center">名词</td>
-<td align="center"><code>兄弟姐妹</code>。不区分男女，既可指兄妹，也可指姐弟、兄弟、姐妹。</td>
-</tr>
-<tr>
-<td align="center">👧 <ruby>妹<rt>いもうと</rt></ruby></td>
-<td align="center">④</td>
-<td align="center">名词</td>
-<td align="center"><code>妹妹</code>。指<strong>比自己年纪小的女性兄弟姐妹</strong>。用于说自己一方的家人。</td>
-</tr>
-<tr>
-<td align="center">🎓 <ruby>生徒<rt>せいと</rt></ruby></td>
-<td align="center">①</td>
-<td align="center">名词</td>
-<td align="center"><code>学生</code>。主要指<strong>中小学的学生</strong>，不用于大学生（大学生用「学生」）。</td>
-</tr>
-<tr>
-<td align="center">👨 <ruby>男<rt>おとこ</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>男性、男人</code>。泛指男性这一性别，不含敬意，用于一般说明。</td>
-</tr>
-<tr>
-<td align="center">👩 <ruby>女<rt>おんな</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>女性、女人</code>。泛指女性这一性别，不含敬意，用于一般说明。</td>
-</tr>
-</tbody></table>
-<h3 id="🐾-动物相关"><a href="#🐾-动物相关" class="headerlink" title="🐾 动物相关"></a>🐾 动物相关</h3><table>
-<thead>
-<tr>
-<th align="center">🐾 单词</th>
-<th align="center">🎵 音调</th>
-<th align="center">🏷️ 词性</th>
-<th align="center">💬 解释</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">🐱 <ruby>猫<rt>ねこ</rt></ruby></td>
-<td align="center">①</td>
-<td align="center">名词</td>
-<td align="center"><code>猫</code>。常见家庭宠物之一。既可指具体的一只猫，也可泛指“猫这种动物”。</td>
-</tr>
-<tr>
-<td align="center">🐶 <ruby>犬<rt>いぬ</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>狗</code>。常见家庭宠物。日语中常用来泛指狗这种动物，也可指某一只狗。</td>
-</tr>
-</tbody></table>
-<h3 id="🧺-其他名词"><a href="#🧺-其他名词" class="headerlink" title="🧺 其他名词"></a>🧺 其他名词</h3><table>
-<thead>
-<tr>
-<th align="center">🧺 单词</th>
-<th align="center">🎵 音调</th>
-<th align="center">🏷️ 词性</th>
-<th align="center">💬 解释</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">🧊 <ruby>冷蔵庫<rt>れいぞうこ</rt></ruby></td>
-<td align="center">③</td>
-<td align="center">名词</td>
-<td align="center"><code>冰箱</code>。用于保存食物、饮料等。家庭中最常见的电器之一。</td>
-</tr>
-<tr>
-<td align="center">📚 <ruby>本棚<rt>ほんだな</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>书架</code>。用于摆放书籍、杂志等。由「本＋棚」构成。</td>
-</tr>
-<tr>
-<td align="center">👓 <ruby>眼鏡<rt>めがね</rt></ruby></td>
-<td align="center">①</td>
-<td align="center">名词</td>
-<td align="center"><code>眼镜</code>。用于视力矫正或装饰。可直接说「めがねを かけます」。</td>
-</tr>
-<tr>
-<td align="center">📦 <ruby>箱<rt>はこ</rt></ruby></td>
-<td align="center">⓪</td>
-<td align="center">名词</td>
-<td align="center"><code>箱子</code>。泛指各种盒子、箱状容器，大小不限。</td>
-</tr>
-<tr>
-<td align="center">🌳 <ruby>木<rt>き</rt></ruby></td>
-<td align="center">①</td>
-<td align="center">名词</td>
-<td align="center"><code>树、木头</code>。既可指活着的树，也可指木材，含义依语境而定。</td>
-</tr>
-<tr>
-<td align="center">🔘 <ruby>スイッチ</ruby></td>
-<td align="center">②</td>
-<td align="center">名词</td>
-<td align="center"><code>开关</code>。多指电器开关，如灯、电视、空调等的开关。</td>
-</tr>
-<tr>
-<td align="center">🏠 <ruby>一人暮らし<rt>ひとりぐらし</rt></ruby></td>
-<td align="center">④</td>
-<td align="center">名词</td>
-<td align="center"><code>一个人生活 / 独居</code>。表示生活方式，常用于自我介绍或生活状态说明。</td>
-</tr>
-<tr>
-<td align="center">⚽ <ruby>サッカーボール</ruby></td>
-<td align="center">⑤</td>
-<td align="center">名词</td>
-<td align="center"><code>足球</code>。用于足球运动的球。片假名外来语。</td>
-</tr>
-<tr>
-<td align="center">🛏️ <ruby>ベッド</ruby></td>
-<td align="center">①</td>
-<td align="center">名词</td>
-<td align="center"><code>床</code>。指睡觉用的床，常见于住宅、酒店等场所。</td>
-</tr>
-</tbody></table>
-<h3 id="🏃-动词（存在）"><a href="#🏃-动词（存在）" class="headerlink" title="🏃 动词（存在）"></a>🏃 动词（存在）</h3><table>
-<thead>
-<tr>
-<th align="center">🏃 单词</th>
-<th align="center">🎵 音调</th>
-<th align="center">🏷️ 词性</th>
-<th align="center">💬 解释</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">📦 <ruby>あります</ruby></td>
-<td align="center">③</td>
-<td align="center">动词</td>
-<td align="center"><code>有 / 在（无生命）</code>。用于<strong>物品、场所、植物、事件</strong>等没有生命的事物。</td>
-</tr>
-<tr>
-<td align="center">👤 <ruby>います</ruby></td>
-<td align="center">②</td>
-<td align="center">动词</td>
-<td align="center"><code>有 / 在（有生命）</code>。用于<strong>人、动物</strong>等有生命的存在。</td>
-</tr>
-</tbody></table>
-<h2 id="🌸-核心语法"><a href="#🌸-核心语法" class="headerlink" title="🌸 核心语法"></a>🌸 核心语法</h2><p><img src="https://oss.yiki.tech/jlpt/20260121054500196.png"></p>
+<h2 id="重点单词">⭐ 重点单词</h2>
+<p><img src="https://oss.yiki.tech/jlpt/20260121044646934.png" alt=""></p>
+<h3 id="📍-方位相关">📍 方位相关</h3>
 <table>
 <thead>
 <tr>
-<th align="center">基本结构</th>
-<th align="center">含义 💡</th>
-<th align="center">强调</th>
-<th align="center">用法说明 🧭</th>
-<th align="center">例句 🗣️</th>
+<th style="text-align:center">🧭 单词</th>
+<th style="text-align:center">🎵 音调</th>
+<th style="text-align:center">🏷️ 词性</th>
+<th style="text-align:center">💬 解释</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">📍 名詞（物） は 名詞（場所） に あります。</td>
-<td align="center">“某物在某处”</td>
-<td align="center">に</td>
-<td align="center">「あります」用于<strong>无生命物体</strong>（物🌳）</td>
-<td align="center">本は机の上にあります。📚</td>
+<tbody>
+<tr>
+<td style="text-align:center">⬆️ <ruby>上<rt>うえ</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>上面 / 上方</code>。表示某物<strong>正上方的位置</strong>，强调垂直方向的“上”。常与「の」连用，如：机の上。</td>
 </tr>
 <tr>
-<td align="center">📍 名詞（人／动物） は 名詞（場所） に います。</td>
-<td align="center">“某人／某动物在某处”</td>
-<td align="center">强调位置</td>
-<td align="center">「います」用于<strong>有生命体</strong>（人👩‍🦰・动物🐕）</td>
-<td align="center">先生は教室にいます。👩‍🏫</td>
+<td style="text-align:center">⬇️ <ruby>下<rt>した</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>下面 / 下方</code>。表示某物<strong>正下方的位置</strong>，与「上」成对使用。常见搭配：椅子の下。</td>
 </tr>
-</tbody></table>
+<tr>
+<td style="text-align:center">📦 <ruby>中<rt>なか</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>里面 / 中间</code>。表示<strong>被包围的内部空间</strong>，如箱子、房间、包的里面。</td>
+</tr>
+<tr>
+<td style="text-align:center">🚪 <ruby>外<rt>そと</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>外面</code>。表示<strong>不在内部的区域</strong>，与「中」相对，如：建物の外。</td>
+</tr>
+<tr>
+<td style="text-align:center">👉 <ruby>前<rt>まえ</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>前面</code>。表示<strong>面向方向的前方</strong>，也可表示时间上的“之前”（初级阶段先记空间用法）。</td>
+</tr>
+<tr>
+<td style="text-align:center">👈 <ruby>後ろ<rt>うしろ</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>后面 / 后方</code>。表示物体或人的背后位置，与「前」相对使用。</td>
+</tr>
+<tr>
+<td style="text-align:center">📍 <ruby>近く<rt>ちかく</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>附近 / 近旁</code>。表示<strong>距离较近但不紧贴</strong>的位置，语感比「となり」更宽泛。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="🏢-场所相关">🏢 场所相关</h3>
 <table>
 <thead>
 <tr>
-<th align="center">基本结构</th>
-<th align="center">含义 💡</th>
-<th align="center">强调</th>
-<th align="center">用法说明 🧭</th>
-<th align="center">例句 🗣️</th>
+<th style="text-align:center">🏢 单词</th>
+<th style="text-align:center">🎵 音调</th>
+<th style="text-align:center">🏷️ 词性</th>
+<th style="text-align:center">💬 解释</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">🏠 名詞（場所） に 名詞（物） が あります。</td>
-<td align="center">“某处有某物”</td>
-<td align="center">が</td>
-<td align="center">表示<strong>无生命物体</strong>的存在； 🌳</td>
-<td align="center">部屋にテレビがあります。📺</td>
+<tbody>
+<tr>
+<td style="text-align:center">🌸 <ruby>花屋<rt>はなや</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>花店</code>。出售鲜花、花束的店铺。「～屋」表示“卖某种东西的店”。</td>
 </tr>
 <tr>
-<td align="center">🏠 名詞（場所） に 名詞（人／动物） が います。</td>
-<td align="center">“某处有某人／动物”</td>
-<td align="center">强调存在</td>
-<td align="center">表示<strong>有生命体</strong>的存在（人👩‍🦰・动物🐕）；</td>
-<td align="center">公園に子どもがいます。👧</td>
+<td style="text-align:center">🏫 <ruby>教室<rt>きょうしつ</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>教室</code>。上课用的房间，常见搭配：教室の中／教室の前。</td>
 </tr>
-</tbody></table>
+<tr>
+<td style="text-align:center">🗂️ <ruby>会議室<rt>かいぎしつ</rt></ruby></td>
+<td style="text-align:center">③</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>会议室</code>。公司或学校里<strong>开会专用的房间</strong>。</td>
+</tr>
+<tr>
+<td style="text-align:center">📚 <ruby>図書室<rt>としょしつ</rt></ruby></td>
+<td style="text-align:center">②</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>图书室</code>。学校或机构内部的阅读空间，<strong>不同于「図書館」</strong>（公共图书馆）。</td>
+</tr>
+<tr>
+<td style="text-align:center">🌳 <ruby>公園<rt>こうえん</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>公园</code>。供休息、散步、娱乐的公共场所。</td>
+</tr>
+<tr>
+<td style="text-align:center">🏠 <ruby>家<rt>いえ</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>家 / 房子</code>。强调<strong>建筑本身或居住的地方</strong>，偏物理空间。</td>
+</tr>
+<tr>
+<td style="text-align:center">🚪 <ruby>部屋<rt>へや</rt></ruby></td>
+<td style="text-align:center">②</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>房间</code>。房子内部的一个空间，如卧室、教室、会议室等。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="🚇-交通相关">🚇 交通相关</h3>
 <table>
 <thead>
 <tr>
-<th align="center">基本结构</th>
-<th align="center">含义 💡</th>
-<th align="center">用法说明 🧭</th>
-<th align="center">例句 🗣️</th>
+<th style="text-align:center">🚇 单词</th>
+<th style="text-align:center">🎵 音调</th>
+<th style="text-align:center">🏷️ 词性</th>
+<th style="text-align:center">💬 解释</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">🤝 名詞 と 名詞</td>
-<td align="center">“A 和 B”</td>
-<td align="center">助词「と」连接两个或多个名词，表示<strong>并列或共同</strong> 🤝</td>
-<td align="center">田中さんと山田さん。👩‍💼👨‍💼</td>
+<tbody>
+<tr>
+<td style="text-align:center">🚇 <ruby>地下鉄<rt>ちかてつ</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>地铁</code>。在地下运行的城市公共交通工具。常与「で」搭配表示交通方式，如：地下鉄で行きます。</td>
 </tr>
 <tr>
-<td align="center">🚫 疑问词＋も＋动词（否定形）</td>
-<td align="center">“谁也不～／什么也不～／哪儿也不～”</td>
-<td align="center">「も」+ 否定动词 &#x3D; <strong>全面否定</strong>（全都不）💀</td>
-<td align="center">だれもいません。🙅‍♂️（一个人也没有）なにもありません。🙅‍♀️（什么也没有）</td>
+<td style="text-align:center">🚉 <ruby>駅<rt>えき</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>车站</code>。火车、电车、地铁等的停靠站点。使用频率极高，如：駅の前／駅に行きます。</td>
 </tr>
-</tbody></table>
-<h3 id="📍-名词［物／人］は-名词［场所］に-あります／います（表示存在地点场所）"><a href="#📍-名词［物／人］は-名词［场所］に-あります／います（表示存在地点场所）" class="headerlink" title="📍 名词［物／人］は 名词［场所］に あります／います（表示存在地点场所）"></a>📍 名词［物／人］は 名词［场所］に あります／います（表示存在地点场所）</h3><p><img src="https://oss.yiki.tech/jlpt/20260121045357158.png"></p>
-<h4 id="📘-基本句型"><a href="#📘-基本句型" class="headerlink" title="📘 基本句型"></a>📘 基本句型</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">名詞［物／人］は　名詞［場所］に　あります／います。</span><br><span class="line"></span><br><span class="line">👉 表示“某物／某人 在 某处”。相当于汉语的“～在～”。</span><br><span class="line">💬 「あります」用于无生命的事物（物・植物・建筑等）。「います」用于有生命的存在（人・动物等）。</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="💡-语法要点"><a href="#💡-语法要点" class="headerlink" title="💡 语法要点"></a>💡 语法要点</h4><table>
+</tbody>
+</table>
+<h3 id="👨-👩-👧-👦-人物相关">👨‍👩‍👧‍👦 人物相关</h3>
+<table>
 <thead>
 <tr>
-<th align="center">🧪 元素</th>
-<th align="center">🛠️ 功能说明</th>
+<th style="text-align:center">👤 单词</th>
+<th style="text-align:center">🎵 音调</th>
+<th style="text-align:center">🏷️ 词性</th>
+<th style="text-align:center">💬 解释</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">に</td>
-<td align="center">📍 <strong>存在地点助词</strong>。表示“存在的场所”，相当于汉语的“在……”。</td>
+<tbody>
+<tr>
+<td style="text-align:center">👶 <ruby>子供<rt>こども</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>孩子、小孩</code>。泛指儿童，不区分性别。可指自己的孩子或一般的孩子。</td>
 </tr>
 <tr>
-<td align="center">あります</td>
-<td align="center">📦 表示“有 &#x2F; 在”，<strong>用于无生命的东西</strong>（物品、建筑、植物等）。</td>
+<td style="text-align:center">👨‍👩‍👧 <ruby>両親<rt>りょうしん</rt></ruby></td>
+<td style="text-align:center">①</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>父母</code>。指父亲和母亲两个人的总称，常用于较正式或书面表达。</td>
 </tr>
 <tr>
-<td align="center">います</td>
-<td align="center">👤 表示“有 &#x2F; 在”，<strong>用于有生命的东西</strong>（人、动物）。</td>
+<td style="text-align:center">👨‍👩‍👧‍👦 <ruby>兄弟<rt>きょうだい</rt></ruby></td>
+<td style="text-align:center">①</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>兄弟姐妹</code>。不区分男女，既可指兄妹，也可指姐弟、兄弟、姐妹。</td>
 </tr>
-</tbody></table>
-<h4 id="🔬-详细讲解"><a href="#🔬-详细讲解" class="headerlink" title="🔬 详细讲解"></a>🔬 详细讲解</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">ビール　は　 冷蔵庫　に　あります。　　　　　啤酒在冰箱里。</span><br><span class="line"></span><br><span class="line">-- 「ビール」是主题，说明“冷蔵庫在哪里”。</span><br><span class="line">-- 「冷蔵庫」表示存在的地点。</span><br><span class="line">-- 「あります」用于冷蔵庫这种无生命的物品。</span><br></pre></td></tr></table></figure>
-
+<tr>
+<td style="text-align:center">👧 <ruby>妹<rt>いもうと</rt></ruby></td>
+<td style="text-align:center">④</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>妹妹</code>。指<strong>比自己年纪小的女性兄弟姐妹</strong>。用于说自己一方的家人。</td>
+</tr>
+<tr>
+<td style="text-align:center">🎓 <ruby>生徒<rt>せいと</rt></ruby></td>
+<td style="text-align:center">①</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>学生</code>。主要指<strong>中小学的学生</strong>，不用于大学生（大学生用「学生」）。</td>
+</tr>
+<tr>
+<td style="text-align:center">👨 <ruby>男<rt>おとこ</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>男性、男人</code>。泛指男性这一性别，不含敬意，用于一般说明。</td>
+</tr>
+<tr>
+<td style="text-align:center">👩 <ruby>女<rt>おんな</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>女性、女人</code>。泛指女性这一性别，不含敬意，用于一般说明。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="🐾-动物相关">🐾 动物相关</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">🐾 单词</th>
+<th style="text-align:center">🎵 音调</th>
+<th style="text-align:center">🏷️ 词性</th>
+<th style="text-align:center">💬 解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">🐱 <ruby>猫<rt>ねこ</rt></ruby></td>
+<td style="text-align:center">①</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>猫</code>。常见家庭宠物之一。既可指具体的一只猫，也可泛指“猫这种动物”。</td>
+</tr>
+<tr>
+<td style="text-align:center">🐶 <ruby>犬<rt>いぬ</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>狗</code>。常见家庭宠物。日语中常用来泛指狗这种动物，也可指某一只狗。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="🧺-其他名词">🧺 其他名词</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">🧺 单词</th>
+<th style="text-align:center">🎵 音调</th>
+<th style="text-align:center">🏷️ 词性</th>
+<th style="text-align:center">💬 解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">🧊 <ruby>冷蔵庫<rt>れいぞうこ</rt></ruby></td>
+<td style="text-align:center">③</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>冰箱</code>。用于保存食物、饮料等。家庭中最常见的电器之一。</td>
+</tr>
+<tr>
+<td style="text-align:center">📚 <ruby>本棚<rt>ほんだな</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>书架</code>。用于摆放书籍、杂志等。由「本＋棚」构成。</td>
+</tr>
+<tr>
+<td style="text-align:center">👓 <ruby>眼鏡<rt>めがね</rt></ruby></td>
+<td style="text-align:center">①</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>眼镜</code>。用于视力矫正或装饰。可直接说「めがねを かけます」。</td>
+</tr>
+<tr>
+<td style="text-align:center">📦 <ruby>箱<rt>はこ</rt></ruby></td>
+<td style="text-align:center">⓪</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>箱子</code>。泛指各种盒子、箱状容器，大小不限。</td>
+</tr>
+<tr>
+<td style="text-align:center">🌳 <ruby>木<rt>き</rt></ruby></td>
+<td style="text-align:center">①</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>树、木头</code>。既可指活着的树，也可指木材，含义依语境而定。</td>
+</tr>
+<tr>
+<td style="text-align:center">🔘 <ruby>スイッチ</ruby></td>
+<td style="text-align:center">②</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>开关</code>。多指电器开关，如灯、电视、空调等的开关。</td>
+</tr>
+<tr>
+<td style="text-align:center">🏠 <ruby>一人暮らし<rt>ひとりぐらし</rt></ruby></td>
+<td style="text-align:center">④</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>一个人生活 / 独居</code>。表示生活方式，常用于自我介绍或生活状态说明。</td>
+</tr>
+<tr>
+<td style="text-align:center">⚽ <ruby>サッカーボール</ruby></td>
+<td style="text-align:center">⑤</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>足球</code>。用于足球运动的球。片假名外来语。</td>
+</tr>
+<tr>
+<td style="text-align:center">🛏️ <ruby>ベッド</ruby></td>
+<td style="text-align:center">①</td>
+<td style="text-align:center">名词</td>
+<td style="text-align:center"><code>床</code>。指睡觉用的床，常见于住宅、酒店等场所。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="🏃-动词-存在">🏃 动词（存在）</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">🏃 单词</th>
+<th style="text-align:center">🎵 音调</th>
+<th style="text-align:center">🏷️ 词性</th>
+<th style="text-align:center">💬 解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">📦 <ruby>あります</ruby></td>
+<td style="text-align:center">③</td>
+<td style="text-align:center">动词</td>
+<td style="text-align:center"><code>有 / 在（无生命）</code>。用于<strong>物品、场所、植物、事件</strong>等没有生命的事物。</td>
+</tr>
+<tr>
+<td style="text-align:center">👤 <ruby>います</ruby></td>
+<td style="text-align:center">②</td>
+<td style="text-align:center">动词</td>
+<td style="text-align:center"><code>有 / 在（有生命）</code>。用于<strong>人、动物</strong>等有生命的存在。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="🌸-核心语法">🌸 核心语法</h2>
+<p><img src="https://oss.yiki.tech/jlpt/20260121054500196.png" alt=""></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">基本结构</th>
+<th style="text-align:center">含义 💡</th>
+<th style="text-align:center">强调</th>
+<th style="text-align:center">用法说明 🧭</th>
+<th style="text-align:center">例句 🗣️</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">📍 名詞（物） は 名詞（場所） に あります。</td>
+<td style="text-align:center">“某物在某处”</td>
+<td style="text-align:center">に</td>
+<td style="text-align:center">「あります」用于<strong>无生命物体</strong>（物🌳）</td>
+<td style="text-align:center">本は机の上にあります。📚</td>
+</tr>
+<tr>
+<td style="text-align:center">📍 名詞（人／动物） は 名詞（場所） に います。</td>
+<td style="text-align:center">“某人／某动物在某处”</td>
+<td style="text-align:center">强调位置</td>
+<td style="text-align:center">「います」用于<strong>有生命体</strong>（人👩‍🦰・动物🐕）</td>
+<td style="text-align:center">先生は教室にいます。👩‍🏫</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">基本结构</th>
+<th style="text-align:center">含义 💡</th>
+<th style="text-align:center">强调</th>
+<th style="text-align:center">用法说明 🧭</th>
+<th style="text-align:center">例句 🗣️</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">🏠 名詞（場所） に 名詞（物） が あります。</td>
+<td style="text-align:center">“某处有某物”</td>
+<td style="text-align:center">が</td>
+<td style="text-align:center">表示<strong>无生命物体</strong>的存在； 🌳</td>
+<td style="text-align:center">部屋にテレビがあります。📺</td>
+</tr>
+<tr>
+<td style="text-align:center">🏠 名詞（場所） に 名詞（人／动物） が います。</td>
+<td style="text-align:center">“某处有某人／动物”</td>
+<td style="text-align:center">强调存在</td>
+<td style="text-align:center">表示<strong>有生命体</strong>的存在（人👩‍🦰・动物🐕）；</td>
+<td style="text-align:center">公園に子どもがいます。👧</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">基本结构</th>
+<th style="text-align:center">含义 💡</th>
+<th style="text-align:center">用法说明 🧭</th>
+<th style="text-align:center">例句 🗣️</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">🤝 名詞 と 名詞</td>
+<td style="text-align:center">“A 和 B”</td>
+<td style="text-align:center">助词「と」连接两个或多个名词，表示<strong>并列或共同</strong> 🤝</td>
+<td style="text-align:center">田中さんと山田さん。👩‍💼👨‍💼</td>
+</tr>
+<tr>
+<td style="text-align:center">🚫 疑问词＋も＋动词（否定形）</td>
+<td style="text-align:center">“谁也不～／什么也不～／哪儿也不～”</td>
+<td style="text-align:center">「も」+ 否定动词 = <strong>全面否定</strong>（全都不）💀</td>
+<td style="text-align:center">だれもいません。🙅‍♂️（一个人也没有）なにもありません。🙅‍♀️（什么也没有）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="📍-名词-物-人-は-名词-场所-に-あります-います-表示存在地点场所">📍 名词［物／人］は 名词［场所］に あります／います（表示存在地点场所）</h3>
+<p><img src="https://oss.yiki.tech/jlpt/20260121045357158.png" alt=""></p>
+<h4 id="📘-基本句型">📘 基本句型</h4>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">名詞［物／人］は　名詞［場所］に　あります／います。</span><br><span class="line"></span><br><span class="line">👉 表示“某物／某人 在 某处”。相当于汉语的“～在～”。</span><br><span class="line">💬 「あります」用于无生命的事物（物・植物・建筑等）。「います」用于有生命的存在（人・动物等）。</span><br></pre></td></tr></table></figure>
+<h4 id="💡-语法要点">💡 语法要点</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">🧪 元素</th>
+<th style="text-align:center">🛠️ 功能说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">に</td>
+<td style="text-align:center">📍 <strong>存在地点助词</strong>。表示“存在的场所”，相当于汉语的“在……”。</td>
+</tr>
+<tr>
+<td style="text-align:center">あります</td>
+<td style="text-align:center">📦 表示“有 / 在”，<strong>用于无生命的东西</strong>（物品、建筑、植物等）。</td>
+</tr>
+<tr>
+<td style="text-align:center">います</td>
+<td style="text-align:center">👤 表示“有 / 在”，<strong>用于有生命的东西</strong>（人、动物）。</td>
+</tr>
+</tbody>
+</table>
+<h4 id="🔬-详细讲解">🔬 详细讲解</h4>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">ビール　は　 冷蔵庫　に　あります。　　　　　啤酒在冰箱里。</span><br><span class="line"></span><br><span class="line">-- 「ビール」是主题，说明“冷蔵庫在哪里”。</span><br><span class="line">-- 「冷蔵庫」表示存在的地点。</span><br><span class="line">-- 「あります」用于冷蔵庫这种无生命的物品。</span><br></pre></td></tr></table></figure>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">こども　  こうえん</span><br><span class="line">子ども　は　公園　に　います。　　　　　孩子在公园。</span><br><span class="line"></span><br><span class="line">-- 「子ども」是有生命的对象。</span><br><span class="line">-- 因此不能用「あります」，必须用「います」。</span><br></pre></td></tr></table></figure>
-
 <p>📌 理解技巧：</p>
 <ul>
-<li><p>🧭 先判断“在哪儿” → 用「に」</p>
+<li>
+<p>🧭 先判断“在哪儿” → 用「に」</p>
 </li>
-<li><p>👀 再判断“有没有生命” → 选「あります &#x2F; います」</p>
+<li>
+<p>👀 再判断“有没有生命” → 选「あります / います」</p>
 <ul>
 <li>「あります」用于<strong>不会动的对象</strong>：桌子、树、书、冰箱……  <code>存在着（物）</code></li>
 <li>「います」用于<strong>会动的生物</strong>：人、猫、狗、老师……  <code>存在着（人）</code></li>
 </ul>
 </li>
-<li><p>🚫 不要把「あります／います」理解成“拥有”，而是<strong>存在状态</strong>。に」标示“位置”或“存在的地点”，而「は」标示“主题”。  </p>
+<li>
+<p>🚫 不要把「あります／います」理解成“拥有”，而是<strong>存在状态</strong>。に」标示“位置”或“存在的地点”，而「は」标示“主题”。</p>
 <ul>
 <li>👉 “说到（主题）～，它在（地点）～。”</li>
 </ul>
 </li>
-<li><p>若主题已明确，可用「は」提示：<br>📘 本は机の上にあります。（书在桌子上。）<br>📗 子どもは公園にいます。（孩子在公园里。）</p>
+<li>
+<p>若主题已明确，可用「は」提示：<br>
+📘 本は机の上にあります。（书在桌子上。）<br>
+📗 子どもは公園にいます。（孩子在公园里。）</p>
 </li>
-<li><p>结构顺序：主语（は）＋地点（に）＋存在动词（あります／います）</p>
+<li>
+<p>结构顺序：主语（は）＋地点（に）＋存在动词（あります／います）</p>
 </li>
 </ul>
-<h4 id="🌰-例句"><a href="#🌰-例句" class="headerlink" title="🌰 例句"></a>🌰 例句</h4><table>
+<h4 id="🌰-例句">🌰 例句</h4>
+<table>
 <thead>
 <tr>
-<th align="center">💬 示例</th>
-<th align="center">🛠️ 功能说明</th>
+<th style="text-align:center">💬 示例</th>
+<th style="text-align:center">🛠️ 功能说明</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">🛏️ <ruby>ベッド<rt>べっど</rt></ruby>は <ruby>部屋<rt>へや</rt></ruby>に あります。</td>
-<td align="center">物品的存在地点</td>
+<tbody>
+<tr>
+<td style="text-align:center">🛏️ <ruby>ベッド<rt>べっど</rt></ruby>は <ruby>部屋<rt>へや</rt></ruby>に あります。</td>
+<td style="text-align:center">物品的存在地点</td>
 </tr>
 <tr>
-<td align="center">📦 <ruby>箱<rt>はこ</rt></ruby>は <ruby>机<rt>つくえ</rt></ruby>の<ruby>下<rt>した</rt></ruby>に あります。</td>
-<td align="center">无生命物的位置</td>
+<td style="text-align:center">📦 <ruby>箱<rt>はこ</rt></ruby>は <ruby>机<rt>つくえ</rt></ruby>の<ruby>下<rt>した</rt></ruby>に あります。</td>
+<td style="text-align:center">无生命物的位置</td>
 </tr>
 <tr>
-<td align="center">🐱 <ruby>猫<rt>ねこ</rt></ruby>は <ruby>家<rt>いえ</rt></ruby>に います。</td>
-<td align="center">动物的存在</td>
+<td style="text-align:center">🐱 <ruby>猫<rt>ねこ</rt></ruby>は <ruby>家<rt>いえ</rt></ruby>に います。</td>
+<td style="text-align:center">动物的存在</td>
 </tr>
 <tr>
-<td align="center">👨‍👩‍👧 <ruby>両親<rt>りょうしん</rt></ruby>は <ruby>家<rt>いえ</rt></ruby>に います。</td>
-<td align="center">人的存在</td>
+<td style="text-align:center">👨‍👩‍👧 <ruby>両親<rt>りょうしん</rt></ruby>は <ruby>家<rt>いえ</rt></ruby>に います。</td>
+<td style="text-align:center">人的存在</td>
 </tr>
-</tbody></table>
-<h3 id="🏠-名词［场所］に-名词［物／人］が-あります／います（存在焦点句）"><a href="#🏠-名词［场所］に-名词［物／人］が-あります／います（存在焦点句）" class="headerlink" title="🏠 名词［场所］に 名词［物／人］が あります／います（存在焦点句）"></a>🏠 名词［场所］に 名词［物／人］が あります／います（存在焦点句）</h3><p><img src="https://oss.yiki.tech/jlpt/20260121050013182.png"></p>
-<h4 id="📘-基本句型-1"><a href="#📘-基本句型-1" class="headerlink" title="📘 基本句型"></a>📘 基本句型</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">名詞［場所］に　名詞［物／人］が　あります／います。</span><br><span class="line"></span><br><span class="line">👉 表示“某处有某物／某人”，相当于汉语的“～有～”。用于介绍某个场所中存在什么，而不是说明“某物在哪里”。</span><br><span class="line">💬 此句型的焦点是“有什么／谁在那儿”，因此主语由「が」提示。与上一句型的核心区别</span><br><span class="line">	- 「名词は ～に あります／います」👉 说明位置</span><br><span class="line">	- 「名词に 名词が あります／います」👉 说明存在</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="💡-语法要点-1"><a href="#💡-语法要点-1" class="headerlink" title="💡 语法要点"></a>💡 语法要点</h4><table>
+</tbody>
+</table>
+<h3 id="🏠-名词-场所-に-名词-物-人-が-あります-います-存在焦点句">🏠 名词［场所］に 名词［物／人］が あります／います（存在焦点句）</h3>
+<p><img src="https://oss.yiki.tech/jlpt/20260121050013182.png" alt=""></p>
+<h4 id="📘-基本句型">📘 基本句型</h4>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">名詞［場所］に　名詞［物／人］が　あります／います。</span><br><span class="line"></span><br><span class="line">👉 表示“某处有某物／某人”，相当于汉语的“～有～”。用于介绍某个场所中存在什么，而不是说明“某物在哪里”。</span><br><span class="line">💬 此句型的焦点是“有什么／谁在那儿”，因此主语由「が」提示。与上一句型的核心区别</span><br><span class="line">	- 「名词は ～に あります／います」👉 说明位置</span><br><span class="line">	- 「名词に 名词が あります／います」👉 说明存在</span><br></pre></td></tr></table></figure>
+<h4 id="💡-语法要点">💡 语法要点</h4>
+<table>
 <thead>
 <tr>
-<th align="center">🧪 元素</th>
-<th align="center">🛠️ 功能说明</th>
+<th style="text-align:center">🧪 元素</th>
+<th style="text-align:center">🛠️ 功能说明</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">に</td>
-<td align="center">📍 <strong>存在地点助词</strong>。表示“某物 &#x2F; 某人存在的场所”。</td>
+<tbody>
+<tr>
+<td style="text-align:center">に</td>
+<td style="text-align:center">📍 <strong>存在地点助词</strong>。表示“某物 / 某人存在的场所”。</td>
 </tr>
 <tr>
-<td align="center">が</td>
-<td align="center">🎯 <strong>存在对象助词</strong>。用于引出“新出现的信息”，即“有什么 &#x2F; 有谁”。</td>
+<td style="text-align:center">が</td>
+<td style="text-align:center">🎯 <strong>存在对象助词</strong>。用于引出“新出现的信息”，即“有什么 / 有谁”。</td>
 </tr>
 <tr>
-<td align="center">あります</td>
-<td align="center">📦 用于<strong>无生命的事物</strong>的存在。</td>
+<td style="text-align:center">あります</td>
+<td style="text-align:center">📦 用于<strong>无生命的事物</strong>的存在。</td>
 </tr>
 <tr>
-<td align="center">います</td>
-<td align="center">👤 用于<strong>有生命的对象</strong>（人、动物）的存在。</td>
+<td style="text-align:center">います</td>
+<td style="text-align:center">👤 用于<strong>有生命的对象</strong>（人、动物）的存在。</td>
 </tr>
-</tbody></table>
-<h4 id="🔬-详细讲解-1"><a href="#🔬-详细讲解-1" class="headerlink" title="🔬 详细讲解"></a>🔬 详细讲解</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">こうえん　  こども</span><br><span class="line">公園　に　子ども　が　います。　　　　公园里有孩子。</span><br><span class="line"></span><br><span class="line">-- 「公園に」先点出“地点”。</span><br><span class="line">-- 「子どもが」是新信息，说明“有什么存在”。</span><br><span class="line">-- 因为是人，所以使用「います」。</span><br></pre></td></tr></table></figure>
-
+</tbody>
+</table>
+<h4 id="🔬-详细讲解">🔬 详细讲解</h4>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">こうえん　  こども</span><br><span class="line">公園　に　子ども　が　います。　　　　公园里有孩子。</span><br><span class="line"></span><br><span class="line">-- 「公園に」先点出“地点”。</span><br><span class="line">-- 「子どもが」是新信息，说明“有什么存在”。</span><br><span class="line">-- 因为是人，所以使用「います」。</span><br></pre></td></tr></table></figure>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">へや　  テレビ</span><br><span class="line">部屋　に　テレビ　が　あります。　　房间里有电视。</span><br><span class="line"></span><br><span class="line">-- 「テレビ」是无生命物体。</span><br><span class="line">-- 因此使用「あります」，不能用「います」。</span><br></pre></td></tr></table></figure>
-
-
-
 <p>📌 理解技巧：</p>
 <ul>
 <li>🧭 问“哪里有什么？” → 用这个句型</li>
-<li>🆕 第一次提到的事物 &#x2F; 人 → 用「が」</li>
-<li>🔄 常见问答搭配：<ul>
+<li>🆕 第一次提到的事物 / 人 → 用「が」</li>
+<li>🔄 常见问答搭配：
+<ul>
 <li>Q：部屋に 何がありますか。</li>
 <li>A：テレビが あります。</li>
 </ul>
 </li>
-<li>📘 汉语对照理解：  <ul>
+<li>📘 汉语对照理解：
+<ul>
 <li>“在（に）～ 有（が）～。”  例：在桌上有书 → つくえの　うえに　本が　あります。</li>
 </ul>
 </li>
 </ul>
-<h4 id="🌰-例句-1"><a href="#🌰-例句-1" class="headerlink" title="🌰 例句"></a>🌰 例句</h4><table>
+<h4 id="🌰-例句">🌰 例句</h4>
+<table>
 <thead>
 <tr>
-<th align="center">💬 示例</th>
-<th align="center">🛠️ 功能说明</th>
+<th style="text-align:center">💬 示例</th>
+<th style="text-align:center">🛠️ 功能说明</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">🌳 <ruby>公園<rt>こうえん</rt></ruby>に <ruby>木<rt>き</rt></ruby>が あります。</td>
-<td align="center">场所中存在的事物</td>
+<tbody>
+<tr>
+<td style="text-align:center">🌳 <ruby>公園<rt>こうえん</rt></ruby>に <ruby>木<rt>き</rt></ruby>が あります。</td>
+<td style="text-align:center">场所中存在的事物</td>
 </tr>
 <tr>
-<td align="center">🏫 <ruby>教室<rt>きょうしつ</rt></ruby>に <ruby>生徒<rt>せいと</rt></ruby>が います。</td>
-<td align="center">场所中存在的人</td>
+<td style="text-align:center">🏫 <ruby>教室<rt>きょうしつ</rt></ruby>に <ruby>生徒<rt>せいと</rt></ruby>が います。</td>
+<td style="text-align:center">场所中存在的人</td>
 </tr>
 <tr>
-<td align="center">🏠 <ruby>家<rt>いえ</rt></ruby>に <ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>が あります。</td>
-<td align="center">家里的物品</td>
+<td style="text-align:center">🏠 <ruby>家<rt>いえ</rt></ruby>に <ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>が あります。</td>
+<td style="text-align:center">家里的物品</td>
 </tr>
 <tr>
-<td align="center">🐕 <ruby>外<rt>そと</rt></ruby>に <ruby>犬<rt>いぬ</rt></ruby>が います。</td>
-<td align="center">地点中的动物</td>
+<td style="text-align:center">🐕 <ruby>外<rt>そと</rt></ruby>に <ruby>犬<rt>いぬ</rt></ruby>が います。</td>
+<td style="text-align:center">地点中的动物</td>
 </tr>
-</tbody></table>
-<h4 id="🧭-は-vs-が-的关键差异"><a href="#🧭-は-vs-が-的关键差异" class="headerlink" title="🧭 は vs が 的关键差异"></a>🧭 は vs が 的关键差异</h4><table>
+</tbody>
+</table>
+<h4 id="🧭-は-vs-が-的关键差异">🧭 は vs が 的关键差异</h4>
+<table>
 <thead>
 <tr>
-<th align="center">对比点</th>
-<th align="center">は</th>
-<th align="center">が</th>
+<th style="text-align:center">对比点</th>
+<th style="text-align:center">は</th>
+<th style="text-align:center">が</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">信息焦点</td>
-<td align="center">主题（已经知道对象，话题）</td>
-<td align="center">焦点（突然发现新东西，新信息）</td>
+<tbody>
+<tr>
+<td style="text-align:center">信息焦点</td>
+<td style="text-align:center">主题（已经知道对象，话题）</td>
+<td style="text-align:center">焦点（突然发现新东西，新信息）</td>
 </tr>
 <tr>
-<td align="center">常见提问</td>
-<td align="center">～は どこですか</td>
-<td align="center">何／だれ が いますか／ありますか</td>
+<td style="text-align:center">常见提问</td>
+<td style="text-align:center">～は どこですか</td>
+<td style="text-align:center">何／だれ が いますか／ありますか</td>
 </tr>
 <tr>
-<td align="center">信息状态</td>
-<td align="center">已知 &#x2F; 正在谈</td>
-<td align="center">新出现 &#x2F; 要强调</td>
+<td style="text-align:center">信息状态</td>
+<td style="text-align:center">已知 / 正在谈</td>
+<td style="text-align:center">新出现 / 要强调</td>
 </tr>
 <tr>
-<td align="center">对话感觉</td>
-<td align="center">“说到……的话”</td>
-<td align="center">“是……！”</td>
+<td style="text-align:center">对话感觉</td>
+<td style="text-align:center">“说到……的话”</td>
+<td style="text-align:center">“是……！”</td>
 </tr>
 <tr>
-<td align="center">常见问题</td>
-<td align="center">这个呢？</td>
-<td align="center">是谁 &#x2F; 是什么？</td>
+<td style="text-align:center">常见问题</td>
+<td style="text-align:center">这个呢？</td>
+<td style="text-align:center">是谁 / 是什么？</td>
 </tr>
 <tr>
-<td align="center">例句</td>
-<td align="center">本 は ここ です。<br/>说到书的话，在这里。</td>
-<td align="center">ここ に 本 が あります。<br/>在这里，有书！</td>
+<td style="text-align:center">例句</td>
+<td style="text-align:center">本 は ここ です。<br/>说到书的话，在这里。</td>
+<td style="text-align:center">ここ に 本 が あります。<br/>在这里，有书！</td>
 </tr>
-</tbody></table>
-<h3 id="🤝-名词-と-名词（并列・“和”）"><a href="#🤝-名词-と-名词（并列・“和”）" class="headerlink" title="🤝 名词 と 名词（并列・“和”）"></a>🤝 名词 と 名词（并列・“和”）</h3><p><img src="https://oss.yiki.tech/jlpt/20260121050559871.png"></p>
-<h4 id="📘-基本句型-2"><a href="#📘-基本句型-2" class="headerlink" title="📘 基本句型"></a>📘 基本句型</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">名词 と 名词</span><br><span class="line"></span><br><span class="line">👉 用于并列连接两个名词，表示“和 / 与 / 跟”。相当于汉语的“～和～”，强调两个事物同时成立、同等并列。</span><br><span class="line">💬 「と」只能连接名词与名词，不可连接句子或形容词。通常用于列举并且语气中包含“完整并列”的意思。</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="💡-语法要点-2"><a href="#💡-语法要点-2" class="headerlink" title="💡 语法要点"></a>💡 语法要点</h4><table>
+</tbody>
+</table>
+<h3 id="🤝-名词-と-名词-并列-和">🤝 名词 と 名词（并列・“和”）</h3>
+<p><img src="https://oss.yiki.tech/jlpt/20260121050559871.png" alt=""></p>
+<h4 id="📘-基本句型">📘 基本句型</h4>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">名词 と 名词</span><br><span class="line"></span><br><span class="line">👉 用于并列连接两个名词，表示“和 / 与 / 跟”。相当于汉语的“～和～”，强调两个事物同时成立、同等并列。</span><br><span class="line">💬 「と」只能连接名词与名词，不可连接句子或形容词。通常用于列举并且语气中包含“完整并列”的意思。</span><br></pre></td></tr></table></figure>
+<h4 id="💡-语法要点">💡 语法要点</h4>
+<table>
 <thead>
 <tr>
-<th align="center">🧪 元素</th>
-<th align="center">🛠️ 功能说明</th>
+<th style="text-align:center">🧪 元素</th>
+<th style="text-align:center">🛠️ 功能说明</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">と</td>
-<td align="center">🔗 <strong>并列助词</strong>。用于连接两个名词，表示“和 &#x2F; 与”。连接两个或多个名词。“AとB”＝“A和B”。&#96;可以连接 人、物、概念。</td>
+<tbody>
+<tr>
+<td style="text-align:center">と</td>
+<td style="text-align:center">🔗 <strong>并列助词</strong>。用于连接两个名词，表示“和 / 与”。连接两个或多个名词。“AとB”＝“A和B”。`可以连接 人、物、概念。</td>
 </tr>
 <tr>
-<td align="center">名词 と 名词</td>
-<td align="center">📦 把两个名词当作一个整体看待，常作句子的<strong>主语或宾语</strong>。<code>被连接的对象，语义上平等并列</code>。可连接两个或多个名词，若超过两个名词可多次使用「と」。</td>
+<td style="text-align:center">名词 と 名词</td>
+<td style="text-align:center">📦 把两个名词当作一个整体看待，常作句子的<strong>主语或宾语</strong>。<code>被连接的对象，语义上平等并列</code>。可连接两个或多个名词，若超过两个名词可多次使用「と」。</td>
 </tr>
 <tr>
-<td align="center">使用限制</td>
-<td align="center">🚫 只能连接名词，不能直接连接动词或形容词。</td>
+<td style="text-align:center">使用限制</td>
+<td style="text-align:center">🚫 只能连接名词，不能直接连接动词或形容词。</td>
 </tr>
 <tr>
-<td align="center">位置</td>
-<td align="center">📍 一般置于两个名词之间，也可接多个名词（A と B と C）。</td>
+<td style="text-align:center">位置</td>
+<td style="text-align:center">📍 一般置于两个名词之间，也可接多个名词（A と B と C）。</td>
 </tr>
-</tbody></table>
-<h4 id="🔬-详细讲解-2"><a href="#🔬-详细讲解-2" class="headerlink" title="🔬 详细讲解"></a>🔬 详细讲解</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">ほん　と　ざっし</span><br><span class="line">本　と　雑誌　　　　　　书和杂志</span><br><span class="line"></span><br><span class="line">-- 「と」把「本」和「杂志」并列连接，表示两者同时存在。</span><br><span class="line">-- 使用「と」时，说话人明确知道并点出所有对象。</span><br><span class="line">-- 整体相当于一个名词短语，可直接放进句子中使用。</span><br></pre></td></tr></table></figure>
-
-
-
+</tbody>
+</table>
+<h4 id="🔬-详细讲解">🔬 详细讲解</h4>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">ほん　と　ざっし</span><br><span class="line">本　と　雑誌　　　　　　书和杂志</span><br><span class="line"></span><br><span class="line">-- 「と」把「本」和「杂志」并列连接，表示两者同时存在。</span><br><span class="line">-- 使用「と」时，说话人明确知道并点出所有对象。</span><br><span class="line">-- 整体相当于一个名词短语，可直接放进句子中使用。</span><br></pre></td></tr></table></figure>
 <p>📌 理解技巧：</p>
 <ul>
 <li>🔗「と」≈ <strong>“A 和 B（只有这两个）”</strong></li>
 <li>💡 与人一起做某事时也用「と」：👫 友だちと行きます。（和朋友一起去。）</li>
 </ul>
-<h4 id="🌰-例句-2"><a href="#🌰-例句-2" class="headerlink" title="🌰 例句"></a>🌰 例句</h4><table>
-<thead>
-<tr>
-<th align="center">💬 示例</th>
-<th align="center">🛠️ 功能说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">📚 <ruby>本<rt>ほん</rt></ruby> と <ruby>雑誌<rt>ざっし</rt></ruby> です。</td>
-<td align="center">并列事物（书和杂志）</td>
-</tr>
-<tr>
-<td align="center">🧑‍🤝‍🧑 <ruby>父<rt>ちち</rt></ruby> と <ruby>母<rt>はは</rt></ruby> です。</td>
-<td align="center">并列人物（父亲和母亲）</td>
-</tr>
-<tr>
-<td align="center">🎒 <ruby>かばん</ruby> と <ruby>ノート</ruby> です。</td>
-<td align="center">并列物品</td>
-</tr>
-<tr>
-<td align="center">🏫 <ruby>教室<rt>きょうしつ</rt></ruby> と <ruby>図書室<rt>としょしつ</rt></ruby> です。</td>
-<td align="center">并列场所</td>
-</tr>
-</tbody></table>
+<h4 id="🌰-例句">🌰 例句</h4>
 <table>
 <thead>
 <tr>
-<th align="center">🇯🇵 示例</th>
-<th align="center">🇨🇳 含义</th>
-<th align="center">🛠️ 功能说明</th>
+<th style="text-align:center">💬 示例</th>
+<th style="text-align:center">🛠️ 功能说明</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">👩‍🏫 田中さん と 森さんは　先生です。</td>
-<td align="center">👩‍🏫 田中老师和森老师是老师。</td>
-<td align="center">名词并列作主语。</td>
+<tbody>
+<tr>
+<td style="text-align:center">📚 <ruby>本<rt>ほん</rt></ruby> と <ruby>雑誌<rt>ざっし</rt></ruby> です。</td>
+<td style="text-align:center">并列事物（书和杂志）</td>
 </tr>
 <tr>
-<td align="center">📘 ざっし と ほんが　つくえの　うえに　あります。</td>
-<td align="center">📘 杂志和书在桌上。</td>
-<td align="center">并列事物的存在。</td>
-</tr>
-</tbody></table>
-<h4 id="🧭-も-vs-と-的关键差异"><a href="#🧭-も-vs-と-的关键差异" class="headerlink" title="🧭 も vs と 的关键差异"></a>🧭 も vs と 的关键差异</h4><table>
-<thead>
-<tr>
-<th align="center">对比点</th>
-<th align="center">➕ も</th>
-<th align="center">🤝 と</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">基本意思</td>
-<td align="center">也、同样</td>
-<td align="center">和</td>
+<td style="text-align:center">🧑‍🤝‍🧑 <ruby>父<rt>ちち</rt></ruby> と <ruby>母<rt>はは</rt></ruby> です。</td>
+<td style="text-align:center">并列人物（父亲和母亲）</td>
 </tr>
 <tr>
-<td align="center">作用</td>
-<td align="center"><strong>追加相同判断</strong></td>
-<td align="center"><strong>并列多个名词</strong></td>
+<td style="text-align:center">🎒 <ruby>かばん</ruby> と <ruby>ノート</ruby> です。</td>
+<td style="text-align:center">并列物品</td>
 </tr>
 <tr>
-<td align="center">前提</td>
-<td align="center">前面已经有一个成立的内容</td>
-<td align="center">不需要前提</td>
+<td style="text-align:center">🏫 <ruby>教室<rt>きょうしつ</rt></ruby> と <ruby>図書室<rt>としょしつ</rt></ruby> です。</td>
+<td style="text-align:center">并列场所</td>
 </tr>
-<tr>
-<td align="center">助词替换</td>
-<td align="center">替换 は &#x2F; が &#x2F; を</td>
-<td align="center">单纯连接名词</td>
-</tr>
-<tr>
-<td align="center">信息关系</td>
-<td align="center"><strong>重复同一属性</strong></td>
-<td align="center"><strong>列举多个对象</strong></td>
-</tr>
-<tr>
-<td align="center">语感理解</td>
-<td align="center">A 是这样，B <strong>也是这样</strong></td>
-<td align="center">A 和 B（一起说）</td>
-</tr>
-</tbody></table>
+</tbody>
+</table>
 <table>
 <thead>
 <tr>
-<th align="center">助词</th>
-<th align="center">功能</th>
-<th align="center">对应中文</th>
-<th align="center">语气说明</th>
+<th style="text-align:center">🇯🇵 示例</th>
+<th style="text-align:center">🇨🇳 含义</th>
+<th style="text-align:center">🛠️ 功能说明</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">も</td>
-<td align="center">表示附加</td>
-<td align="center">也</td>
-<td align="center">表示与前项相同或类似的情况（附加、重复）</td>
+<tbody>
+<tr>
+<td style="text-align:center">👩‍🏫 田中さん と 森さんは　先生です。</td>
+<td style="text-align:center">👩‍🏫 田中老师和森老师是老师。</td>
+<td style="text-align:center">名词并列作主语。</td>
 </tr>
 <tr>
-<td align="center">と</td>
-<td align="center">并列列举</td>
-<td align="center">和／与／跟</td>
-<td align="center">表示并列关系，语气为“全部都包括”</td>
+<td style="text-align:center">📘 ざっし と ほんが　つくえの　うえに　あります。</td>
+<td style="text-align:center">📘 杂志和书在桌上。</td>
+<td style="text-align:center">并列事物的存在。</td>
 </tr>
-</tbody></table>
-<h3 id="🚫-疑问词-も-动词-否定-（表示全面否定）"><a href="#🚫-疑问词-も-动词-否定-（表示全面否定）" class="headerlink" title="🚫 疑问词 も　动词 [否定]（表示全面否定）"></a>🚫 疑问词 も　动词 [否定]（表示全面否定）</h3><p><img src="https://oss.yiki.tech/jp/20251215091214440.png"></p>
-<h4 id="📘-基本句型-3"><a href="#📘-基本句型-3" class="headerlink" title="📘 基本句型"></a>📘 基本句型</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">疑问词 ＋ も ＋ 动词［否定形］</span><br><span class="line"></span><br><span class="line">👉 表示“谁也不……／什么也不……／哪儿也不……”，即全面否定。</span><br><span class="line">💬 当「も」与疑问词（だれ／なに／どこ／いつ等）一起使用时，若句末动词为否定形（～ません／～ない），整句话的意思就是“全部否定”“一个也没有”。</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="💡-语法要点-3"><a href="#💡-语法要点-3" class="headerlink" title="💡 语法要点"></a>💡 语法要点</h4><table>
+</tbody>
+</table>
+<h4 id="🧭-も-vs-と-的关键差异">🧭 も vs と 的关键差异</h4>
+<table>
 <thead>
 <tr>
-<th align="center">🧪 元素</th>
-<th align="center">🛠️ 功能说明</th>
+<th style="text-align:center">对比点</th>
+<th style="text-align:center">➕ も</th>
+<th style="text-align:center">🤝 と</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">疑问词</td>
-<td align="center">❓ 如「だれ」「なに」「どこ」等，用来表示不确定对象。</td>
+<tbody>
+<tr>
+<td style="text-align:center">基本意思</td>
+<td style="text-align:center">也、同样</td>
+<td style="text-align:center">和</td>
 </tr>
 <tr>
-<td align="center">も</td>
-<td align="center">🚫 <strong>表示“连一个也不”</strong>，强调“全部为零”。这里表示“全体范围内也没有一个”。</td>
+<td style="text-align:center">作用</td>
+<td style="text-align:center"><strong>追加相同判断</strong></td>
+<td style="text-align:center"><strong>并列多个名词</strong></td>
 </tr>
 <tr>
-<td align="center">否定动词</td>
-<td align="center">⛔ <strong>必须是否定形式</strong>，否则语法错误。 <code>与「も」搭配时形成“全面否定”。常用形式为「～ません」「～ありません」</code>。</td>
+<td style="text-align:center">前提</td>
+<td style="text-align:center">前面已经有一个成立的内容</td>
+<td style="text-align:center">不需要前提</td>
 </tr>
 <tr>
-<td align="center">使用限制</td>
-<td align="center">❌ <strong>不能用于肯定句</strong>；❌ <strong>不能单独使用「も」</strong>。</td>
+<td style="text-align:center">助词替换</td>
+<td style="text-align:center">替换 は / が / を</td>
+<td style="text-align:center">单纯连接名词</td>
 </tr>
 <tr>
-<td align="center">语感</td>
-<td align="center">🌫️ 表示“连一个都不……”“无一例外”，语气比单纯否定更强。</td>
+<td style="text-align:center">信息关系</td>
+<td style="text-align:center"><strong>重复同一属性</strong></td>
+<td style="text-align:center"><strong>列举多个对象</strong></td>
 </tr>
-</tbody></table>
-<h4 id="🔬-详细讲解-3"><a href="#🔬-详细讲解-3" class="headerlink" title="🔬 详细讲解"></a>🔬 详细讲解</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">だれ　も　いません。</span><br><span class="line">谁　也　不在。</span><br><span class="line"></span><br><span class="line">-- 「だれ」是疑问词，表示“谁”。</span><br><span class="line">-- 「も」表示“连一个也没有”。</span><br><span class="line">-- 「いません」是否定形式，对“存在”进行否定。</span><br><span class="line">-- 三者必须同时出现，才能构成“全面否定”。</span><br></pre></td></tr></table></figure>
-
-
-
+<tr>
+<td style="text-align:center">语感理解</td>
+<td style="text-align:center">A 是这样，B <strong>也是这样</strong></td>
+<td style="text-align:center">A 和 B（一起说）</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">助词</th>
+<th style="text-align:center">功能</th>
+<th style="text-align:center">对应中文</th>
+<th style="text-align:center">语气说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">も</td>
+<td style="text-align:center">表示附加</td>
+<td style="text-align:center">也</td>
+<td style="text-align:center">表示与前项相同或类似的情况（附加、重复）</td>
+</tr>
+<tr>
+<td style="text-align:center">と</td>
+<td style="text-align:center">并列列举</td>
+<td style="text-align:center">和／与／跟</td>
+<td style="text-align:center">表示并列关系，语气为“全部都包括”</td>
+</tr>
+</tbody>
+</table>
+<h3 id="🚫-疑问词-も-动词-否定-表示全面否定">🚫 疑问词 も　动词 [否定]（表示全面否定）</h3>
+<p><img src="https://oss.yiki.tech/jp/20251215091214440.png" alt=""></p>
+<h4 id="📘-基本句型">📘 基本句型</h4>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">疑问词 ＋ も ＋ 动词［否定形］</span><br><span class="line"></span><br><span class="line">👉 表示“谁也不……／什么也不……／哪儿也不……”，即全面否定。</span><br><span class="line">💬 当「も」与疑问词（だれ／なに／どこ／いつ等）一起使用时，若句末动词为否定形（～ません／～ない），整句话的意思就是“全部否定”“一个也没有”。</span><br></pre></td></tr></table></figure>
+<h4 id="💡-语法要点">💡 语法要点</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">🧪 元素</th>
+<th style="text-align:center">🛠️ 功能说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">疑问词</td>
+<td style="text-align:center">❓ 如「だれ」「なに」「どこ」等，用来表示不确定对象。</td>
+</tr>
+<tr>
+<td style="text-align:center">も</td>
+<td style="text-align:center">🚫 <strong>表示“连一个也不”</strong>，强调“全部为零”。这里表示“全体范围内也没有一个”。</td>
+</tr>
+<tr>
+<td style="text-align:center">否定动词</td>
+<td style="text-align:center">⛔ <strong>必须是否定形式</strong>，否则语法错误。 <code>与「も」搭配时形成“全面否定”。常用形式为「～ません」「～ありません」</code>。</td>
+</tr>
+<tr>
+<td style="text-align:center">使用限制</td>
+<td style="text-align:center">❌ <strong>不能用于肯定句</strong>；❌ <strong>不能单独使用「も」</strong>。</td>
+</tr>
+<tr>
+<td style="text-align:center">语感</td>
+<td style="text-align:center">🌫️ 表示“连一个都不……”“无一例外”，语气比单纯否定更强。</td>
+</tr>
+</tbody>
+</table>
+<h4 id="🔬-详细讲解">🔬 详细讲解</h4>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">だれ　も　いません。</span><br><span class="line">谁　也　不在。</span><br><span class="line"></span><br><span class="line">-- 「だれ」是疑问词，表示“谁”。</span><br><span class="line">-- 「も」表示“连一个也没有”。</span><br><span class="line">-- 「いません」是否定形式，对“存在”进行否定。</span><br><span class="line">-- 三者必须同时出现，才能构成“全面否定”。</span><br></pre></td></tr></table></figure>
 <p>📌 理解技巧：</p>
 <ul>
-<li><p>✅ <strong>结构顺序固定</strong>：疑问词（本来表示“不确定”）＋も（连“这个也”都不）＋动词否定</p>
+<li>
+<p>✅ <strong>结构顺序固定</strong>：疑问词（本来表示“不确定”）＋も（连“这个也”都不）＋动词否定</p>
 <ul>
 <li>👉 结果就是：<strong>全部否定，一个也不成立</strong></li>
 </ul>
 </li>
-<li><p>⚠️ 如果用动词肯定形，就会变为“全面肯定”语气：<br>📘 だれもいます → “大家都在”（自然口语可用）<br>  　📘 だれもいません → “谁也不在”（标准语）</p>
+<li>
+<p>⚠️ 如果用动词肯定形，就会变为“全面肯定”语气：<br>
+📘 だれもいます → “大家都在”（自然口语可用）<br>
+　📘 だれもいません → “谁也不在”（标准语）</p>
 </li>
 </ul>
-<h4 id="🌰-例句-3"><a href="#🌰-例句-3" class="headerlink" title="🌰 例句"></a>🌰 例句</h4><table>
+<h4 id="🌰-例句">🌰 例句</h4>
+<table>
 <thead>
 <tr>
-<th align="center">💬 示例</th>
-<th align="center">🛠️ 功能说明</th>
+<th style="text-align:center">💬 示例</th>
+<th style="text-align:center">🛠️ 功能说明</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">👤 だれも いません。</td>
-<td align="center">谁也不在。</td>
+<tbody>
+<tr>
+<td style="text-align:center">👤 だれも いません。</td>
+<td style="text-align:center">谁也不在。</td>
 </tr>
 <tr>
-<td align="center">📦 なにも ありません。</td>
-<td align="center">什么都没有。</td>
+<td style="text-align:center">📦 なにも ありません。</td>
+<td style="text-align:center">什么都没有。</td>
 </tr>
 <tr>
-<td align="center">🏢 どこにも ありません。</td>
-<td align="center">哪里都没有。</td>
+<td style="text-align:center">🏢 どこにも ありません。</td>
+<td style="text-align:center">哪里都没有。</td>
 </tr>
 <tr>
-<td align="center">👨‍👩‍👧 だれも きません。</td>
-<td align="center">谁也不来。</td>
+<td style="text-align:center">👨‍👩‍👧 だれも きません。</td>
+<td style="text-align:center">谁也不来。</td>
 </tr>
-</tbody></table>
-<h4 id="💡-常见组合一览表"><a href="#💡-常见组合一览表" class="headerlink" title="💡 常见组合一览表"></a>💡 常见组合一览表</h4><table>
+</tbody>
+</table>
+<h4 id="💡-常见组合一览表">💡 常见组合一览表</h4>
+<table>
 <thead>
 <tr>
-<th align="center">疑问词</th>
-<th align="center">含义</th>
-<th align="center">否定句例</th>
-<th align="center">中文意思</th>
+<th style="text-align:center">疑问词</th>
+<th style="text-align:center">含义</th>
+<th style="text-align:center">否定句例</th>
+<th style="text-align:center">中文意思</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">だれ（誰）</td>
-<td align="center">谁</td>
-<td align="center">だれも いません。</td>
-<td align="center">谁也不在。</td>
+<tbody>
+<tr>
+<td style="text-align:center">だれ（誰）</td>
+<td style="text-align:center">谁</td>
+<td style="text-align:center">だれも いません。</td>
+<td style="text-align:center">谁也不在。</td>
 </tr>
 <tr>
-<td align="center">なに（何）</td>
-<td align="center">什么</td>
-<td align="center">なにも ありません。</td>
-<td align="center">什么也没有。</td>
+<td style="text-align:center">なに（何）</td>
+<td style="text-align:center">什么</td>
+<td style="text-align:center">なにも ありません。</td>
+<td style="text-align:center">什么也没有。</td>
 </tr>
 <tr>
-<td align="center">どこ</td>
-<td align="center">哪里</td>
-<td align="center">どこも いきません。</td>
-<td align="center">哪儿也不去。</td>
+<td style="text-align:center">どこ</td>
+<td style="text-align:center">哪里</td>
+<td style="text-align:center">どこも いきません。</td>
+<td style="text-align:center">哪儿也不去。</td>
 </tr>
 <tr>
-<td align="center">いつ</td>
-<td align="center">什么时候</td>
-<td align="center">いつも いきません。</td>
-<td align="center">一直都不去（频率全面否定）。</td>
+<td style="text-align:center">いつ</td>
+<td style="text-align:center">什么时候</td>
+<td style="text-align:center">いつも いきません。</td>
+<td style="text-align:center">一直都不去（频率全面否定）。</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <p>💡 <strong>使用小提示：</strong></p>
 <ul>
 <li>「も」在这里类似“全体”意义，翻译成“也（不）”更自然。</li>
 <li>常与动词「あります」「います」「行きます」「食べます」等否定形搭配。</li>
 <li>若换成肯定形，则语气完全不同（“都～”）：📘 だれもいます → “大家都在”（自然口语，书面少见）。</li>
 </ul>
-<h2 id="📖-课文-会社の場所"><a href="#📖-课文-会社の場所" class="headerlink" title="📖 课文 会社の場所"></a>📖 课文 会社の場所</h2><blockquote>
+<h2 id="📖-课文-会社の場所">📖 课文 会社の場所</h2>
+<blockquote>
 <p>今天时星期天。从明天开始小李将要到公司本部上班。小野来到小李住的宾馆向她说明公司的地理位置。</p>
 </blockquote>
-<p><img src="https://oss.yiki.tech/jlpt/20260121053005983.png"></p>
+<p><img src="https://oss.yiki.tech/jlpt/20260121053005983.png" alt=""></p>
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">李：小野さん，会社はどこに　ありますか。                　　　　　　　　　小野，公司在哪里？</span><br><span class="line">	に　的前方本来需要添加地点，如果地点未知使用疑问词 どこ　进行提问</span><br><span class="line"></span><br><span class="line">小野：ええと，ここです。                             　　　　　　　　　(思考)，在这里。</span><br><span class="line">	ええと 是日语中的思考语气词，当被问到问题、暂时想不起来或需要思考一下时使用。</span><br><span class="line">	相当于中文的“嗯……、那个……”。</span><br><span class="line">	ここに　あります。 与 ここです。 都可以表示在这里。</span><br><span class="line"></span><br><span class="line">李：近くに　駅が　ありますか。                        　　　　　　　　　在附近有车站吗？</span><br><span class="line">	に 的前面加地点，表示存在的地方。如果地点使用方位词来表示也可以。</span><br><span class="line">	が　ありますか 表示有</span><br><span class="line"></span><br><span class="line">小野：ええ。JRと 地下鉄の駅が　あります。JRの駅は　ここです。　　　嗯，有JR和地铁的车站。JR的车站在这里。</span><br><span class="line">	ええ 是 はい 的更随意的表达。</span><br><span class="line"></span><br><span class="line">李：地下鉄の駅は　ここですね。                                       地铁的车站在这里是吧。</span><br><span class="line">	ね 当说话人希望听话人同意、确认、附和时，句尾加助词「ね」。语调一般为升调（↗），语气柔和、亲切。</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://oss.yiki.tech/jlpt/20260121053009903.png"></p>
+<p><img src="https://oss.yiki.tech/jlpt/20260121053009903.png" alt=""></p>
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">小野：ええ，そうです。JRの 駅の 隣に 地下鉄の 駅が　あります。       嗯，是的。JR的车站的旁边有地铁的车站</span><br><span class="line"></span><br><span class="line">李：小野さんの家は　どちらですか。                               小野的家在哪里？</span><br><span class="line"></span><br><span class="line">小野：私の家は　横浜です。                                      我的家在横滨。</span><br><span class="line"></span><br><span class="line">李：ご家族も　横浜ですか。                                      你的家人也在横滨吗？</span><br><span class="line"></span><br><span class="line">小野：いいえ，私は一人暮らし。                                   不是的，我一个人生活。</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://oss.yiki.tech/jlpt/20260121053013679.png"></p>
+<p><img src="https://oss.yiki.tech/jlpt/20260121053013679.png" alt=""></p>
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">李：ご両親は　どちらですか。                                     你的父母双亲在哪里呢？</span><br><span class="line">	说到他人的家人时，为表示尊敬，要在名词前加上「ご」。而提到自己的家人时，不能使用「ご」。</span><br><span class="line"></span><br><span class="line">小野：両親は　名古屋います。                                     父母双亲在名古屋。</span><br><span class="line"></span><br><span class="line">李：ご兄弟は?                                                你的兄弟姐妹呢？</span><br><span class="line">	有两种含义 ① 你有兄弟姐妹吗? ② 你的兄弟姐妹在哪里呢?</span><br><span class="line"></span><br><span class="line">小野：大阪に　妹が　います。                                     妹妹在大版。</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="🌱-扩展小知识"><a href="#🌱-扩展小知识" class="headerlink" title="🌱 扩展小知识"></a>🌱 扩展小知识</h2><h3 id="🧭-方位词与位置表达"><a href="#🧭-方位词与位置表达" class="headerlink" title="🧭 方位词与位置表达"></a>🧭 方位词与位置表达</h3><blockquote>
-<p>方位词表示事物相对的位置，如“上、下、前、后、旁边、里面、外面”等。 在句中使用时，需通过结构 <strong>名词＋の＋方位词</strong> 来修饰。<br>🏗️ 汉语说“椅子下”“桌子上”，日语则要说 <strong>いすの下（した）／つくえの上（うえ）</strong>。 ⚠️ 「の」<strong>不能省略</strong>！</p>
+<h2 id="🌱-扩展小知识">🌱 扩展小知识</h2>
+<h3 id="🧭-方位词与位置表达">🧭 方位词与位置表达</h3>
+<blockquote>
+<p>方位词表示事物相对的位置，如“上、下、前、后、旁边、里面、外面”等。 在句中使用时，需通过结构 <strong>名词＋の＋方位词</strong> 来修饰。<br>
+🏗️ 汉语说“椅子下”“桌子上”，日语则要说 <strong>いすの下（した）／つくえの上（うえ）</strong>。 ⚠️ 「の」<strong>不能省略</strong>！</p>
 </blockquote>
 <table>
 <thead>
 <tr>
-<th align="center">方位词</th>
-<th align="center">假名</th>
-<th align="center">含义</th>
+<th style="text-align:center">方位词</th>
+<th style="text-align:center">假名</th>
+<th style="text-align:center">含义</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">上</td>
-<td align="center">うえ</td>
-<td align="center">上面；上方</td>
+<tbody>
+<tr>
+<td style="text-align:center">上</td>
+<td style="text-align:center">うえ</td>
+<td style="text-align:center">上面；上方</td>
 </tr>
 <tr>
-<td align="center">下</td>
-<td align="center">した</td>
-<td align="center">下面；下方</td>
+<td style="text-align:center">下</td>
+<td style="text-align:center">した</td>
+<td style="text-align:center">下面；下方</td>
 </tr>
 <tr>
-<td align="center">前</td>
-<td align="center">まえ</td>
-<td align="center">前面</td>
+<td style="text-align:center">前</td>
+<td style="text-align:center">まえ</td>
+<td style="text-align:center">前面</td>
 </tr>
 <tr>
-<td align="center">後ろ</td>
-<td align="center">うしろ</td>
-<td align="center">后面；背后</td>
+<td style="text-align:center">後ろ</td>
+<td style="text-align:center">うしろ</td>
+<td style="text-align:center">后面；背后</td>
 </tr>
 <tr>
-<td align="center">となり</td>
-<td align="center">となり</td>
-<td align="center">旁边；邻近</td>
+<td style="text-align:center">となり</td>
+<td style="text-align:center">となり</td>
+<td style="text-align:center">旁边；邻近</td>
 </tr>
 <tr>
-<td align="center">中</td>
-<td align="center">なか</td>
-<td align="center">里面；中间</td>
+<td style="text-align:center">中</td>
+<td style="text-align:center">なか</td>
+<td style="text-align:center">里面；中间</td>
 </tr>
 <tr>
-<td align="center">外</td>
-<td align="center">そと</td>
-<td align="center">外面</td>
+<td style="text-align:center">外</td>
+<td style="text-align:center">そと</td>
+<td style="text-align:center">外面</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <p>💬 <strong>例句：</strong></p>
 <ul>
-<li>つくえ<strong>の上（うえ）</strong>に　本があります。📘（桌子上有书。）</li>
-<li>いす<strong>の下（した）</strong>に　ねこがいます。🐱（椅子下有猫。）</li>
+<li>つくえ**の上（うえ）**に　本があります。📘（桌子上有书。）</li>
+<li>いす**の下（した）**に　ねこがいます。🐱（椅子下有猫。）</li>
 <li>学校<strong>のとなり</strong>に　公園があります。🌳（学校旁边有公园。）</li>
 </ul>
-<h4 id="💡「上（うえ）」的范围区别"><a href="#💡「上（うえ）」的范围区别" class="headerlink" title="💡「上（うえ）」的范围区别"></a>💡「上（うえ）」的范围区别</h4><blockquote>
+<h4 id="💡-上-うえ-的范围区别">💡「上（うえ）」的范围区别</h4>
+<blockquote>
 <p>日语中「上」所表示的范围比汉语的“上”<strong>更窄</strong>，仅指垂直方向上的“上方”，<strong>不包括表面</strong>。</p>
 </blockquote>
 <table>
 <thead>
 <tr>
-<th align="center">表达</th>
-<th align="center">含义</th>
-<th align="center">说明</th>
+<th style="text-align:center">表达</th>
+<th style="text-align:center">含义</th>
+<th style="text-align:center">说明</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">壁<strong>の上（うえ）</strong></td>
-<td align="center">墙的上方（靠近天棚的部分）</td>
-<td align="center">❌ 不指墙面</td>
+<tbody>
+<tr>
+<td style="text-align:center">壁<strong>の上（うえ）</strong></td>
+<td style="text-align:center">墙的上方（靠近天棚的部分）</td>
+<td style="text-align:center">❌ 不指墙面</td>
 </tr>
 <tr>
-<td align="center">壁<strong>に</strong> 絵（え）が あります。</td>
-<td align="center">墙上有画（贴在墙面上）</td>
-<td align="center">✅ 表示附着关系用「に」</td>
+<td style="text-align:center">壁<strong>に</strong> 絵（え）が あります。</td>
+<td style="text-align:center">墙上有画（贴在墙面上）</td>
+<td style="text-align:center">✅ 表示附着关系用「に」</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <p>💡 记忆要点：</p>
 <ul>
 <li>垂直上方 → の上（うえ）に</li>
 <li>贴在表面 → に</li>
 </ul>
-<h3 id="🗣️-句末助词「ね」——表示确认与同意"><a href="#🗣️-句末助词「ね」——表示确认与同意" class="headerlink" title="🗣️ 句末助词「ね」——表示确认与同意"></a>🗣️ 句末助词「ね」——表示确认与同意</h3><blockquote>
-<p>当说话人希望听话人<strong>同意、确认、附和</strong>时，句尾加助词「ね」。<br>语调一般为<strong>升调（↗）</strong>，语气柔和、亲切。</p>
+<h3 id="🗣-句末助词-ね-表示确认与同意">🗣️ 句末助词「ね」——表示确认与同意</h3>
+<blockquote>
+<p>当说话人希望听话人<strong>同意、确认、附和</strong>时，句尾加助词「ね」。<br>
+语调一般为<strong>升调（↗）</strong>，语气柔和、亲切。</p>
 </blockquote>
 <table>
 <thead>
 <tr>
-<th align="center">💬 示例</th>
-<th align="center">🇨🇳 中文意思</th>
-<th align="center">🛠️ 功能说明</th>
+<th style="text-align:center">💬 示例</th>
+<th style="text-align:center">🇨🇳 中文意思</th>
+<th style="text-align:center">🛠️ 功能说明</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">いい天気（てんき）ですね。</td>
-<td align="center">天气真好呢。</td>
-<td align="center">征求认同（一起感叹）</td>
+<tbody>
+<tr>
+<td style="text-align:center">いい天気（てんき）ですね。</td>
+<td style="text-align:center">天气真好呢。</td>
+<td style="text-align:center">征求认同（一起感叹）</td>
 </tr>
 <tr>
-<td align="center">これは森（もり）さんの本ですね。</td>
-<td align="center">这是森先生的书，对吧？</td>
-<td align="center">确认信息</td>
+<td style="text-align:center">これは森（もり）さんの本ですね。</td>
+<td style="text-align:center">这是森先生的书，对吧？</td>
+<td style="text-align:center">确认信息</td>
 </tr>
 <tr>
-<td align="center">明日（あした）は休（やす）みですね。</td>
-<td align="center">明天放假呢。</td>
-<td align="center">提示、确认共同信息</td>
+<td style="text-align:center">明日（あした）は休（やす）みですね。</td>
+<td style="text-align:center">明天放假呢。</td>
+<td style="text-align:center">提示、确认共同信息</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <p>💡 <strong>语气提示：</strong></p>
 <ul>
 <li>🌸 升调 → 表示确认、附和（常见）。</li>
 <li>🔽 降调 → 表示陈述、感叹（语气柔和）。</li>
 </ul>
-<h3 id="🤔-ええと-——-思考时的缓冲语"><a href="#🤔-ええと-——-思考时的缓冲语" class="headerlink" title="🤔 ええと —— 思考时的缓冲语"></a>🤔 ええと —— 思考时的缓冲语</h3><blockquote>
-<p>「ええと」是日语中的<strong>思考语气词</strong>，<br>当被问到问题、暂时想不起来或需要思考一下时使用。<br>相当于中文的“嗯……、那个……”。</p>
+<h3 id="🤔-ええと-思考时的缓冲语">🤔 ええと —— 思考时的缓冲语</h3>
+<blockquote>
+<p>「ええと」是日语中的<strong>思考语气词</strong>，<br>
+当被问到问题、暂时想不起来或需要思考一下时使用。<br>
+相当于中文的“嗯……、那个……”。</p>
 </blockquote>
 <table>
 <thead>
 <tr>
-<th align="center">💬 示例</th>
+<th style="text-align:center">💬 示例</th>
 <th>🇨🇳 中文意思</th>
-<th align="center">🛠️ 功能说明</th>
+<th style="text-align:center">🛠️ 功能说明</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">ええと、名前（なまえ）は……。</td>
+<tbody>
+<tr>
+<td style="text-align:center">ええと、名前（なまえ）は……。</td>
 <td>嗯……名字是……</td>
-<td align="center">思考、犹豫时的口语表达</td>
+<td style="text-align:center">思考、犹豫时的口语表达</td>
 </tr>
 <tr>
-<td align="center">ええと、どこでしたか。</td>
+<td style="text-align:center">ええと、どこでしたか。</td>
 <td>呃……是哪里来着？</td>
-<td align="center">试图回忆信息</td>
+<td style="text-align:center">试图回忆信息</td>
 </tr>
 <tr>
-<td align="center">ええと……すみません。</td>
+<td style="text-align:center">ええと……すみません。</td>
 <td>嗯……不好意思。</td>
-<td align="center">表示迟疑或组织语言</td>
+<td style="text-align:center">表示迟疑或组织语言</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <p>💡 <strong>使用提示：</strong></p>
 <ul>
 <li>类似「あのう」，但「あのう」更用于<strong>搭话前</strong>，而「ええと」更用于<strong>思考中</strong>。</li>
 </ul>
-<h3 id="👨‍👩‍👧‍👦-敬语前缀「ご」在家庭称呼中的用法"><a href="#👨‍👩‍👧‍👦-敬语前缀「ご」在家庭称呼中的用法" class="headerlink" title="👨‍👩‍👧‍👦 敬语前缀「ご」在家庭称呼中的用法"></a>👨‍👩‍👧‍👦 敬语前缀「ご」在家庭称呼中的用法</h3><blockquote>
-<p>说到<strong>他人</strong>的家人时，为表示尊敬，要在名词前加上「ご」。<br>而提到<strong>自己的家人</strong>时，不能使用「ご」。</p>
+<h3 id="👨-👩-👧-👦-敬语前缀-ご-在家庭称呼中的用法">👨‍👩‍👧‍👦 敬语前缀「ご」在家庭称呼中的用法</h3>
+<blockquote>
+<p>说到<strong>他人</strong>的家人时，为表示尊敬，要在名词前加上「ご」。<br>
+而提到<strong>自己的家人</strong>时，不能使用「ご」。</p>
 </blockquote>
 <table>
 <thead>
 <tr>
-<th align="center">敬语形式</th>
-<th align="center">假名</th>
-<th align="center">对应普通形式</th>
-<th align="center">含义</th>
-<th align="center">使用说明</th>
+<th style="text-align:center">敬语形式</th>
+<th style="text-align:center">假名</th>
+<th style="text-align:center">对应普通形式</th>
+<th style="text-align:center">含义</th>
+<th style="text-align:center">使用说明</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">ご家族</td>
-<td align="center">ごかぞく</td>
-<td align="center">かぞく</td>
-<td align="center">家人</td>
-<td align="center">指对方的家人</td>
+<tbody>
+<tr>
+<td style="text-align:center">ご家族</td>
+<td style="text-align:center">ごかぞく</td>
+<td style="text-align:center">かぞく</td>
+<td style="text-align:center">家人</td>
+<td style="text-align:center">指对方的家人</td>
 </tr>
 <tr>
-<td align="center">ご兄弟</td>
-<td align="center">ごきょうだい</td>
-<td align="center">きょうだい</td>
-<td align="center">兄弟姐妹</td>
-<td align="center">指对方的兄弟姐妹</td>
+<td style="text-align:center">ご兄弟</td>
+<td style="text-align:center">ごきょうだい</td>
+<td style="text-align:center">きょうだい</td>
+<td style="text-align:center">兄弟姐妹</td>
+<td style="text-align:center">指对方的兄弟姐妹</td>
 </tr>
 <tr>
-<td align="center">ご両親</td>
-<td align="center">ごりょうしん</td>
-<td align="center">りょうしん</td>
-<td align="center">父母</td>
-<td align="center">指对方的父母</td>
+<td style="text-align:center">ご両親</td>
+<td style="text-align:center">ごりょうしん</td>
+<td style="text-align:center">りょうしん</td>
+<td style="text-align:center">父母</td>
+<td style="text-align:center">指对方的父母</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <p>💬 <strong>例句：</strong></p>
 <ul>
 <li>ご家族は お元気（げんき）ですか。→ 您的家人身体好吗？</li>
@@ -1164,38 +1250,26 @@
 </ul>
 <p>💡 <strong>注意：</strong></p>
 <ul>
-<li>「ご」不是所有名词都能加。<br>只能加在和“他人”“尊敬对象”有关的词前。</li>
+<li>「ご」不是所有名词都能加。<br>
+只能加在和“他人”“尊敬对象”有关的词前。</li>
 <li>对自己的家人、公司、学校等应使用<strong>谦逊表达</strong>。</li>
 </ul>
-<h2 id="🏋️-练习"><a href="#🏋️-练习" class="headerlink" title="🏋️ 练习"></a>🏋️ 练习</h2><h3 id="🔨-造句"><a href="#🔨-造句" class="headerlink" title="🔨 造句"></a>🔨 造句</h3><p><img src="https://oss.yiki.tech/jlpt/20260121055043917.png"></p>
+<h2 id="🏋-练习">🏋️ 练习</h2>
+<h3 id="🔨-造句">🔨 造句</h3>
+<p><img src="https://oss.yiki.tech/jlpt/20260121055043917.png" alt=""></p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">① 生徒は　どこに　いますか。　　　　　　　　　　　　　　　家に　います。</span><br><span class="line"></span><br><span class="line">② 銀行は　どこに　ありますか。　　　　　　　　　　　　　　ホテルの後ろに　あります。</span><br><span class="line"></span><br><span class="line">③ 兄弟は　どこに　いますか。　　　　　　　　　　　　　　　名古屋に　います。</span><br><span class="line"></span><br><span class="line">④ 眼鏡は　どこに　ありますか。　　　　　　　　　　　　　　居間に　あります。</span><br></pre></td></tr></table></figure>
-
-
-
-<p><img src="https://oss.yiki.tech/jlpt/20260121055532068.png"></p>
+<p><img src="https://oss.yiki.tech/jlpt/20260121055532068.png" alt=""></p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">① 部屋に　時計が　あります。　　　　　　　　　　　　　　　　房间里有表。</span><br><span class="line"></span><br><span class="line">② 会議室に　机が　あります。　　　　　　　　　　　　　　　　会议室里有桌子。</span><br><span class="line"></span><br><span class="line">③ 公園に　女の人が　います。　　　　　　　　　　　　　　　　公园里有女人。</span><br><span class="line"></span><br><span class="line">④ 靴の売り場の隣に　劉さんが　います。                  刘在卖鞋的柜台的旁边。</span><br></pre></td></tr></table></figure>
-
-
-
-<p><img src="https://oss.yiki.tech/jlpt/20260121155702979.png"></p>
-<p><img src="https://oss.yiki.tech/jlpt/20260121160348762.png"></p>
+<p><img src="https://oss.yiki.tech/jlpt/20260121155702979.png" alt=""></p>
+<p><img src="https://oss.yiki.tech/jlpt/20260121160348762.png" alt=""></p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">あそこに　だれが　いますか。　　　　　　　　　　　　　　　　　　　　　　小野が　います。</span><br><span class="line"></span><br><span class="line">本は　どこに　ありますか。　　　　　　　　　　　　　　　　　　　　　　　鞄の中に　あります。</span><br><span class="line"></span><br><span class="line">机の上に　なにが　ありますか。　　　　　　　　　　　　　　　　　　　　　新聞が　あります。</span><br><span class="line"></span><br><span class="line">箱の中に　何が　ありますか。　　　　　　　　　　　　　　　　　　　　　　何もありません。</span><br><span class="line"></span><br><span class="line">図書室に　だれが　いますか。　　　　　　　　　　　　　　　　　　　　　　誰もいません。</span><br></pre></td></tr></table></figure>
-
-
-
-<p><img src="https://oss.yiki.tech/jlpt/20260121160420971.png"></p>
-<p><img src="https://oss.yiki.tech/jlpt/20260121162256907.png"></p>
+<p><img src="https://oss.yiki.tech/jlpt/20260121160420971.png" alt=""></p>
+<p><img src="https://oss.yiki.tech/jlpt/20260121162256907.png" alt=""></p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">机の上に　何が　ありますか。　　　　　　　　　　　　　　　　　　　何もありません。</span><br><span class="line"></span><br><span class="line">机の下に　誰が　いますか。　　　　　　　　　　　　　　　　　　　　子供が　います。</span><br><span class="line"></span><br><span class="line">冷蔵庫の中に　何が　ありますか。　　　　　　　　　　　　　　　　　服が　あります。</span><br><span class="line"></span><br><span class="line">ピアノの後ろに　何が　いますか。　　　　　　　　　　　　　　　　　猫が　います。</span><br><span class="line"></span><br><span class="line">箱の中に　何が　ありますか。　　　　　　　　　　　　　　　　　　　何もありません。</span><br><span class="line"></span><br><span class="line">ベッドの上に　何が　いますか。　　　　　　　　　　　　　　　　　　　犬が　います。</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="📚-扩展阅读"><a href="#📚-扩展阅读" class="headerlink" title="📚 扩展阅读"></a>📚 扩展阅读</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">A：私の部屋は二階にありますよ。　　　　　　　　　　　　　我的房间在二楼哟。</span><br><span class="line">B：そうですか。部屋に何がありますか。                 这样啊。房间里有什么呢。</span><br><span class="line">A：部屋に机があります。いすもあります。               房间里有桌子也有椅子。</span><br><span class="line">B：部屋にテレビがありますか。                       房间里有电视机吗。</span><br><span class="line">A：はい、あります。                               是，有的。</span><br><span class="line">B：テレビはどこにありますか。                       电视机在哪呢？</span><br><span class="line">A：テレビは机の上にあります。                       电视机在桌子上。</span><br><span class="line">B：そうですか。                                   原来是这样啊。</span><br></pre></td></tr></table></figure>
-
-
-
+<h2 id="📚-扩展阅读">📚 扩展阅读</h2>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">A：私の部屋は二階にありますよ。　　　　　　　　　　　　　我的房间在二楼哟。</span><br><span class="line">B：そうですか。部屋に何がありますか。                 这样啊。房间里有什么呢。</span><br><span class="line">A：部屋に机があります。いすもあります。               房间里有桌子也有椅子。</span><br><span class="line">B：部屋にテレビがありますか。                       房间里有电视机吗。</span><br><span class="line">A：はい、あります。                               是，有的。</span><br><span class="line">B：テレビはどこにありますか。                       电视机在哪呢？</span><br><span class="line">A：テレビは机の上にあります。                       电视机在桌子上。</span><br><span class="line">B：そうですか。                                   原来是这样啊。</span><br></pre></td></tr></table></figure>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">私の寮は食堂の隣にあります。寮の正門の横に桜の木があります。桜の木の下に池があります。池の中に金魚などがいます。私の部屋は三階です。部屋に机が２つと椅子が４つあります。１つの机の上には本やノートなどがあります。もう１つの机の上には何もありません。ベッドが４つあります。部屋にテレビはありません。トイレもありません。トイレは廊下にあります。私は今寮にはいません。教室にいます。寮にはルームメートの王がいます。</span><br><span class="line"></span><br><span class="line">我的宿舍在食堂旁边。宿舍正门的旁边有一棵樱花树。樱花树下有一个池塘。池塘里有金鱼等。我的房间在三楼。房间里有两张桌子和四把椅子。其中一张桌子上放着书和笔记本等。另一张桌子上什么都没有。有四张床。房间里没有电视。也没有厕所。厕所在走廊上。我现在不在宿舍。在教室。宿舍里有我的室友小王。</span><br></pre></td></tr></table></figure>
-
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://xue.bi">Guan FuQing</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://xue.bi/post/9ff987b0.html">https://xue.bi/post/9ff987b0.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://xue.bi" target="_blank">Guan FuQing's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/N5/">N5</a></div><div class="post_share"><div class="social-share" data-image="https://oss.yiki.tech/jlpt/20260119151009333.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://unpkg.com/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://unpkg.com/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/post/17739cea.html" title="第一单元复习"><img class="cover" src="https://oss.yiki.tech/jlpt/20260120034816739.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">第一单元复习</div></div></a></div><div class="next-post pull-right"><a href="/post/95ff5595.html" title="N5 ここはデパートです（三）"><img class="cover" src="https://oss.yiki.tech/jlpt/20260117223922942.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">N5 ここはデパートです（三）</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/post/f72b4759.html" title="N5 交通機関（六）"><img class="cover" src="https://oss.yiki.tech/jlpt/20260122054942868.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2026-01-22</div><div class="title">N5 交通機関（六）</div></div></a></div><div><a href="/post/95ff5595.html" title="N5 ここはデパートです（三）"><img class="cover" src="https://oss.yiki.tech/jlpt/20260117223922942.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2026-01-18</div><div class="title">N5 ここはデパートです（三）</div></div></a></div><div><a href="/post/a6ba528a.html" title="N5 初めまして（一）"><img class="cover" src="https://oss.yiki.tech/jlpt/20260116024505750.jpeg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2026-01-16</div><div class="title">N5 初めまして（一）</div></div></a></div><div><a href="/post/23ad190b.html" title="N5 家族の写真（二）"><img class="cover" src="https://oss.yiki.tech/jlpt/20260116205428604.jpeg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2026-01-17</div><div class="title">N5 家族の写真（二）</div></div></a></div><div><a href="/post/565fc693.html" title="N5 昼ご飯（七）"><img class="cover" src="https://oss.yiki.tech/jlpt/20260123155800538.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2026-01-23</div><div class="title">N5 昼ご飯（七）</div></div></a></div><div><a href="/post/17739cea.html" title="第一单元复习"><img class="cover" src="https://oss.yiki.tech/jlpt/20260120034816739.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2026-01-20</div><div class="title">第一单元复习</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://oss.yiki.tech/jlpt/20260104192808833.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Guan FuQing</div><div class="author-info__description"> <p> <font color="red">你</font> <font color="orange">看</font> <font color="yellow">沿</font> <font color="green">途</font> <font color="blue">的</font> <font color="indigo">星</font> <font color="violet">辰</font> <font color="red">也</font> <font color="orange">从</font> <font color="yellow">未</font> <font color="green">后</font> <font color="blue">退</font> </p> </div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/FuQingGuan"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/fuqingguan" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:moumouguan@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://oss.yiki.tech/img/202304230601430.png" target="_blank" title="WeChat"><i class="fa-brands fa-weixin"></i></a><a class="social-icon" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1606871715&amp;site=qq&amp;menu=yes" target="_blank" title="QQ"><i class="fa-brands fa-qq"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">Hello World</div></div><div class="xpand" style="height:200px;"><canvas class="illo" width="800" height="800" style="max-width: 200px; max-height: 200px; touch-action: none; width: 640px; height: 640px;"></canvas></div><script src="https://fastly.jsdelivr.net/gh/xiaopengand/blogCdn@latest/xzxr/twopeople1.js"></script><script src="https://fastly.jsdelivr.net/gh/xiaopengand/blogCdn@latest/xzxr/zdog.dist.js"></script><script id="rendered-js" src="https://fastly.jsdelivr.net/gh/xiaopengand/blogCdn@latest/xzxr/twopeople.js"></script><style>.card-widget.card-announcement {
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://xue.bi">Guan FuQing</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://xue.bi/post/9ff987b0.html">https://xue.bi/post/9ff987b0.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://xue.bi" target="_blank">Guan FuQing's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/N5/">N5</a></div><div class="post_share"><div class="social-share" data-image="https://oss.yiki.tech/jlpt/20260119151009333.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://unpkg.com/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://unpkg.com/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/post/17739cea.html" title="第一单元复习"><img class="cover" src="https://oss.yiki.tech/jlpt/20260120034816739.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">第一单元复习</div></div></a></div><div class="next-post pull-right"><a href="/post/95ff5595.html" title="N5 ここはデパートです（三）"><img class="cover" src="https://oss.yiki.tech/jlpt/20260117223922942.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">N5 ここはデパートです（三）</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/post/1f31575d.html" title="N5 スケジュール表（八）"><img class="cover" src="https://oss.yiki.tech/jlpt/20260124170655634.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2026-01-24</div><div class="title">N5 スケジュール表（八）</div></div></a></div><div><a href="/post/95ff5595.html" title="N5 ここはデパートです（三）"><img class="cover" src="https://oss.yiki.tech/jlpt/20260117223922942.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2026-01-18</div><div class="title">N5 ここはデパートです（三）</div></div></a></div><div><a href="/post/a6ba528a.html" title="N5 初めまして（一）"><img class="cover" src="https://oss.yiki.tech/jlpt/20260116024505750.jpeg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2026-01-16</div><div class="title">N5 初めまして（一）</div></div></a></div><div><a href="/post/f72b4759.html" title="N5 交通機関（六）"><img class="cover" src="https://oss.yiki.tech/jlpt/20260122054942868.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2026-01-22</div><div class="title">N5 交通機関（六）</div></div></a></div><div><a href="/post/23ad190b.html" title="N5 家族の写真（二）"><img class="cover" src="https://oss.yiki.tech/jlpt/20260116205428604.jpeg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2026-01-17</div><div class="title">N5 家族の写真（二）</div></div></a></div><div><a href="/post/565fc693.html" title="N5 昼ご飯（七）"><img class="cover" src="https://oss.yiki.tech/jlpt/20260123155800538.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2026-01-23</div><div class="title">N5 昼ご飯（七）</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://oss.yiki.tech/jlpt/20260104192808833.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Guan FuQing</div><div class="author-info__description"> <p> <font color="red">你</font> <font color="orange">看</font> <font color="yellow">沿</font> <font color="green">途</font> <font color="blue">的</font> <font color="indigo">星</font> <font color="violet">辰</font> <font color="red">也</font> <font color="orange">从</font> <font color="yellow">未</font> <font color="green">后</font> <font color="blue">退</font> </p> </div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/FuQingGuan"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/fuqingguan" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:moumouguan@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://oss.yiki.tech/img/202304230601430.png" target="_blank" title="WeChat"><i class="fa-brands fa-weixin"></i></a><a class="social-icon" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1606871715&amp;site=qq&amp;menu=yes" target="_blank" title="QQ"><i class="fa-brands fa-qq"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">Hello World</div></div><div class="xpand" style="height:200px;"><canvas class="illo" width="800" height="800" style="max-width: 200px; max-height: 200px; touch-action: none; width: 640px; height: 640px;"></canvas></div><script src="https://fastly.jsdelivr.net/gh/xiaopengand/blogCdn@latest/xzxr/twopeople1.js"></script><script src="https://fastly.jsdelivr.net/gh/xiaopengand/blogCdn@latest/xzxr/zdog.dist.js"></script><script id="rendered-js" src="https://fastly.jsdelivr.net/gh/xiaopengand/blogCdn@latest/xzxr/twopeople.js"></script><style>.card-widget.card-announcement {
 margin: 0;
 align-items: center;
 justify-content: center;
@@ -1205,7 +1279,7 @@ canvas {
 display: block;
 margin: 0 auto;
 cursor: move;
-}</style><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%F0%9F%8F%81-N5-%E4%BC%9A%E7%A4%BE%E3%81%AE%E5%A0%B4%E6%89%80%EF%BC%88%E5%9B%9B%EF%BC%89"><span class="toc-number">1.</span> <span class="toc-text">🏁 N5 会社の場所（四）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8F%86-%E5%AD%A6%E4%B9%A0%E7%9B%AE%E6%A0%87"><span class="toc-number">1.1.</span> <span class="toc-text">🏆 学习目标</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E2%AD%90-%E9%87%8D%E7%82%B9%E5%8D%95%E8%AF%8D"><span class="toc-number">1.2.</span> <span class="toc-text">⭐ 重点单词</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%93%8D-%E6%96%B9%E4%BD%8D%E7%9B%B8%E5%85%B3"><span class="toc-number">1.2.1.</span> <span class="toc-text">📍 方位相关</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%8F%A2-%E5%9C%BA%E6%89%80%E7%9B%B8%E5%85%B3"><span class="toc-number">1.2.2.</span> <span class="toc-text">🏢 场所相关</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%9A%87-%E4%BA%A4%E9%80%9A%E7%9B%B8%E5%85%B3"><span class="toc-number">1.2.3.</span> <span class="toc-text">🚇 交通相关</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%91%A8%E2%80%8D%F0%9F%91%A9%E2%80%8D%F0%9F%91%A7%E2%80%8D%F0%9F%91%A6-%E4%BA%BA%E7%89%A9%E7%9B%B8%E5%85%B3"><span class="toc-number">1.2.4.</span> <span class="toc-text">👨‍👩‍👧‍👦 人物相关</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%90%BE-%E5%8A%A8%E7%89%A9%E7%9B%B8%E5%85%B3"><span class="toc-number">1.2.5.</span> <span class="toc-text">🐾 动物相关</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%A7%BA-%E5%85%B6%E4%BB%96%E5%90%8D%E8%AF%8D"><span class="toc-number">1.2.6.</span> <span class="toc-text">🧺 其他名词</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%8F%83-%E5%8A%A8%E8%AF%8D%EF%BC%88%E5%AD%98%E5%9C%A8%EF%BC%89"><span class="toc-number">1.2.7.</span> <span class="toc-text">🏃 动词（存在）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8C%B8-%E6%A0%B8%E5%BF%83%E8%AF%AD%E6%B3%95"><span class="toc-number">1.3.</span> <span class="toc-text">🌸 核心语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%93%8D-%E5%90%8D%E8%AF%8D%EF%BC%BB%E7%89%A9%EF%BC%8F%E4%BA%BA%EF%BC%BD%E3%81%AF-%E5%90%8D%E8%AF%8D%EF%BC%BB%E5%9C%BA%E6%89%80%EF%BC%BD%E3%81%AB-%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%EF%BC%8F%E3%81%84%E3%81%BE%E3%81%99%EF%BC%88%E8%A1%A8%E7%A4%BA%E5%AD%98%E5%9C%A8%E5%9C%B0%E7%82%B9%E5%9C%BA%E6%89%80%EF%BC%89"><span class="toc-number">1.3.1.</span> <span class="toc-text">📍 名词［物／人］は 名词［场所］に あります／います（表示存在地点场所）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%93%98-%E5%9F%BA%E6%9C%AC%E5%8F%A5%E5%9E%8B"><span class="toc-number">1.3.1.1.</span> <span class="toc-text">📘 基本句型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%92%A1-%E8%AF%AD%E6%B3%95%E8%A6%81%E7%82%B9"><span class="toc-number">1.3.1.2.</span> <span class="toc-text">💡 语法要点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%94%AC-%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3"><span class="toc-number">1.3.1.3.</span> <span class="toc-text">🔬 详细讲解</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%8C%B0-%E4%BE%8B%E5%8F%A5"><span class="toc-number">1.3.1.4.</span> <span class="toc-text">🌰 例句</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%8F%A0-%E5%90%8D%E8%AF%8D%EF%BC%BB%E5%9C%BA%E6%89%80%EF%BC%BD%E3%81%AB-%E5%90%8D%E8%AF%8D%EF%BC%BB%E7%89%A9%EF%BC%8F%E4%BA%BA%EF%BC%BD%E3%81%8C-%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%EF%BC%8F%E3%81%84%E3%81%BE%E3%81%99%EF%BC%88%E5%AD%98%E5%9C%A8%E7%84%A6%E7%82%B9%E5%8F%A5%EF%BC%89"><span class="toc-number">1.3.2.</span> <span class="toc-text">🏠 名词［场所］に 名词［物／人］が あります／います（存在焦点句）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%93%98-%E5%9F%BA%E6%9C%AC%E5%8F%A5%E5%9E%8B-1"><span class="toc-number">1.3.2.1.</span> <span class="toc-text">📘 基本句型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%92%A1-%E8%AF%AD%E6%B3%95%E8%A6%81%E7%82%B9-1"><span class="toc-number">1.3.2.2.</span> <span class="toc-text">💡 语法要点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%94%AC-%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3-1"><span class="toc-number">1.3.2.3.</span> <span class="toc-text">🔬 详细讲解</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%8C%B0-%E4%BE%8B%E5%8F%A5-1"><span class="toc-number">1.3.2.4.</span> <span class="toc-text">🌰 例句</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%A7%AD-%E3%81%AF-vs-%E3%81%8C-%E7%9A%84%E5%85%B3%E9%94%AE%E5%B7%AE%E5%BC%82"><span class="toc-number">1.3.2.5.</span> <span class="toc-text">🧭 は vs が 的关键差异</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%A4%9D-%E5%90%8D%E8%AF%8D-%E3%81%A8-%E5%90%8D%E8%AF%8D%EF%BC%88%E5%B9%B6%E5%88%97%E3%83%BB%E2%80%9C%E5%92%8C%E2%80%9D%EF%BC%89"><span class="toc-number">1.3.3.</span> <span class="toc-text">🤝 名词 と 名词（并列・“和”）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%93%98-%E5%9F%BA%E6%9C%AC%E5%8F%A5%E5%9E%8B-2"><span class="toc-number">1.3.3.1.</span> <span class="toc-text">📘 基本句型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%92%A1-%E8%AF%AD%E6%B3%95%E8%A6%81%E7%82%B9-2"><span class="toc-number">1.3.3.2.</span> <span class="toc-text">💡 语法要点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%94%AC-%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3-2"><span class="toc-number">1.3.3.3.</span> <span class="toc-text">🔬 详细讲解</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%8C%B0-%E4%BE%8B%E5%8F%A5-2"><span class="toc-number">1.3.3.4.</span> <span class="toc-text">🌰 例句</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%A7%AD-%E3%82%82-vs-%E3%81%A8-%E7%9A%84%E5%85%B3%E9%94%AE%E5%B7%AE%E5%BC%82"><span class="toc-number">1.3.3.5.</span> <span class="toc-text">🧭 も vs と 的关键差异</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%9A%AB-%E7%96%91%E9%97%AE%E8%AF%8D-%E3%82%82-%E5%8A%A8%E8%AF%8D-%E5%90%A6%E5%AE%9A-%EF%BC%88%E8%A1%A8%E7%A4%BA%E5%85%A8%E9%9D%A2%E5%90%A6%E5%AE%9A%EF%BC%89"><span class="toc-number">1.3.4.</span> <span class="toc-text">🚫 疑问词 も　动词 [否定]（表示全面否定）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%93%98-%E5%9F%BA%E6%9C%AC%E5%8F%A5%E5%9E%8B-3"><span class="toc-number">1.3.4.1.</span> <span class="toc-text">📘 基本句型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%92%A1-%E8%AF%AD%E6%B3%95%E8%A6%81%E7%82%B9-3"><span class="toc-number">1.3.4.2.</span> <span class="toc-text">💡 语法要点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%94%AC-%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3-3"><span class="toc-number">1.3.4.3.</span> <span class="toc-text">🔬 详细讲解</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%8C%B0-%E4%BE%8B%E5%8F%A5-3"><span class="toc-number">1.3.4.4.</span> <span class="toc-text">🌰 例句</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%92%A1-%E5%B8%B8%E8%A7%81%E7%BB%84%E5%90%88%E4%B8%80%E8%A7%88%E8%A1%A8"><span class="toc-number">1.3.4.5.</span> <span class="toc-text">💡 常见组合一览表</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%93%96-%E8%AF%BE%E6%96%87-%E4%BC%9A%E7%A4%BE%E3%81%AE%E5%A0%B4%E6%89%80"><span class="toc-number">1.4.</span> <span class="toc-text">📖 课文 会社の場所</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8C%B1-%E6%89%A9%E5%B1%95%E5%B0%8F%E7%9F%A5%E8%AF%86"><span class="toc-number">1.5.</span> <span class="toc-text">🌱 扩展小知识</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%A7%AD-%E6%96%B9%E4%BD%8D%E8%AF%8D%E4%B8%8E%E4%BD%8D%E7%BD%AE%E8%A1%A8%E8%BE%BE"><span class="toc-number">1.5.1.</span> <span class="toc-text">🧭 方位词与位置表达</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%92%A1%E3%80%8C%E4%B8%8A%EF%BC%88%E3%81%86%E3%81%88%EF%BC%89%E3%80%8D%E7%9A%84%E8%8C%83%E5%9B%B4%E5%8C%BA%E5%88%AB"><span class="toc-number">1.5.1.1.</span> <span class="toc-text">💡「上（うえ）」的范围区别</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%97%A3%EF%B8%8F-%E5%8F%A5%E6%9C%AB%E5%8A%A9%E8%AF%8D%E3%80%8C%E3%81%AD%E3%80%8D%E2%80%94%E2%80%94%E8%A1%A8%E7%A4%BA%E7%A1%AE%E8%AE%A4%E4%B8%8E%E5%90%8C%E6%84%8F"><span class="toc-number">1.5.2.</span> <span class="toc-text">🗣️ 句末助词「ね」——表示确认与同意</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%A4%94-%E3%81%88%E3%81%88%E3%81%A8-%E2%80%94%E2%80%94-%E6%80%9D%E8%80%83%E6%97%B6%E7%9A%84%E7%BC%93%E5%86%B2%E8%AF%AD"><span class="toc-number">1.5.3.</span> <span class="toc-text">🤔 ええと —— 思考时的缓冲语</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%91%A8%E2%80%8D%F0%9F%91%A9%E2%80%8D%F0%9F%91%A7%E2%80%8D%F0%9F%91%A6-%E6%95%AC%E8%AF%AD%E5%89%8D%E7%BC%80%E3%80%8C%E3%81%94%E3%80%8D%E5%9C%A8%E5%AE%B6%E5%BA%AD%E7%A7%B0%E5%91%BC%E4%B8%AD%E7%9A%84%E7%94%A8%E6%B3%95"><span class="toc-number">1.5.4.</span> <span class="toc-text">👨‍👩‍👧‍👦 敬语前缀「ご」在家庭称呼中的用法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8F%8B%EF%B8%8F-%E7%BB%83%E4%B9%A0"><span class="toc-number">1.6.</span> <span class="toc-text">🏋️ 练习</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%94%A8-%E9%80%A0%E5%8F%A5"><span class="toc-number">1.6.1.</span> <span class="toc-text">🔨 造句</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%93%9A-%E6%89%A9%E5%B1%95%E9%98%85%E8%AF%BB"><span class="toc-number">1.7.</span> <span class="toc-text">📚 扩展阅读</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/post/565fc693.html" title="N5 昼ご飯（七）"><img src="https://oss.yiki.tech/jlpt/20260123155800538.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="N5 昼ご飯（七）"/></a><div class="content"><a class="title" href="/post/565fc693.html" title="N5 昼ご飯（七）">N5 昼ご飯（七）</a><time datetime="2026-01-23T07:56:34.000Z" title="发表于 2026-01-23 15:56:34">2026-01-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/f72b4759.html" title="N5 交通機関（六）"><img src="https://oss.yiki.tech/jlpt/20260122054942868.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="N5 交通機関（六）"/></a><div class="content"><a class="title" href="/post/f72b4759.html" title="N5 交通機関（六）">N5 交通機関（六）</a><time datetime="2026-01-21T21:48:02.000Z" title="发表于 2026-01-22 05:48:02">2026-01-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/e82d20a1.html" title="N5 遅刻（五）"><img src="https://oss.yiki.tech/jlpt/20260121150138253.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="N5 遅刻（五）"/></a><div class="content"><a class="title" href="/post/e82d20a1.html" title="N5 遅刻（五）">N5 遅刻（五）</a><time datetime="2026-01-21T06:58:03.000Z" title="发表于 2026-01-21 14:58:03">2026-01-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/17739cea.html" title="第一单元复习"><img src="https://oss.yiki.tech/jlpt/20260120034816739.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="第一单元复习"/></a><div class="content"><a class="title" href="/post/17739cea.html" title="第一单元复习">第一单元复习</a><time datetime="2026-01-19T19:47:36.000Z" title="发表于 2026-01-20 03:47:36">2026-01-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/9ff987b0.html" title="会社の場所（四）"><img src="https://oss.yiki.tech/jlpt/20260119151009333.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="会社の場所（四）"/></a><div class="content"><a class="title" href="/post/9ff987b0.html" title="会社の場所（四）">会社の場所（四）</a><time datetime="2026-01-19T06:11:12.000Z" title="发表于 2026-01-19 14:11:12">2026-01-19</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2026  <i id="heartbeat" class="fa fas fa-heartbeat"></i> Guan FuQing</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div><link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css"></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><a class="icon-V hidden" onclick="switchNightMode()" title="浅色和深色模式转换"><svg width="25" height="25" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon"></use></svg></a><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://unpkg.com/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script><div class="js-pjax"><script>function loadValine () {
+}</style><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%F0%9F%8F%81-n5-%E4%BC%9A%E7%A4%BE%E3%81%AE%E5%A0%B4%E6%89%80-%E5%9B%9B"><span class="toc-number">1.</span> <span class="toc-text">🏁 N5 会社の場所（四）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8F%86-%E5%AD%A6%E4%B9%A0%E7%9B%AE%E6%A0%87"><span class="toc-number">1.1.</span> <span class="toc-text">🏆 学习目标</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%87%8D%E7%82%B9%E5%8D%95%E8%AF%8D"><span class="toc-number">1.2.</span> <span class="toc-text">⭐ 重点单词</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%93%8D-%E6%96%B9%E4%BD%8D%E7%9B%B8%E5%85%B3"><span class="toc-number">1.2.1.</span> <span class="toc-text">📍 方位相关</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%8F%A2-%E5%9C%BA%E6%89%80%E7%9B%B8%E5%85%B3"><span class="toc-number">1.2.2.</span> <span class="toc-text">🏢 场所相关</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%9A%87-%E4%BA%A4%E9%80%9A%E7%9B%B8%E5%85%B3"><span class="toc-number">1.2.3.</span> <span class="toc-text">🚇 交通相关</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%91%A8-%F0%9F%91%A9-%F0%9F%91%A7-%F0%9F%91%A6-%E4%BA%BA%E7%89%A9%E7%9B%B8%E5%85%B3"><span class="toc-number">1.2.4.</span> <span class="toc-text">👨‍👩‍👧‍👦 人物相关</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%90%BE-%E5%8A%A8%E7%89%A9%E7%9B%B8%E5%85%B3"><span class="toc-number">1.2.5.</span> <span class="toc-text">🐾 动物相关</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%A7%BA-%E5%85%B6%E4%BB%96%E5%90%8D%E8%AF%8D"><span class="toc-number">1.2.6.</span> <span class="toc-text">🧺 其他名词</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%8F%83-%E5%8A%A8%E8%AF%8D-%E5%AD%98%E5%9C%A8"><span class="toc-number">1.2.7.</span> <span class="toc-text">🏃 动词（存在）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8C%B8-%E6%A0%B8%E5%BF%83%E8%AF%AD%E6%B3%95"><span class="toc-number">1.3.</span> <span class="toc-text">🌸 核心语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%93%8D-%E5%90%8D%E8%AF%8D-%E7%89%A9-%E4%BA%BA-%E3%81%AF-%E5%90%8D%E8%AF%8D-%E5%9C%BA%E6%89%80-%E3%81%AB-%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99-%E3%81%84%E3%81%BE%E3%81%99-%E8%A1%A8%E7%A4%BA%E5%AD%98%E5%9C%A8%E5%9C%B0%E7%82%B9%E5%9C%BA%E6%89%80"><span class="toc-number">1.3.1.</span> <span class="toc-text">📍 名词［物／人］は 名词［场所］に あります／います（表示存在地点场所）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%93%98-%E5%9F%BA%E6%9C%AC%E5%8F%A5%E5%9E%8B"><span class="toc-number">1.3.1.1.</span> <span class="toc-text">📘 基本句型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%92%A1-%E8%AF%AD%E6%B3%95%E8%A6%81%E7%82%B9"><span class="toc-number">1.3.1.2.</span> <span class="toc-text">💡 语法要点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%94%AC-%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3"><span class="toc-number">1.3.1.3.</span> <span class="toc-text">🔬 详细讲解</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%8C%B0-%E4%BE%8B%E5%8F%A5"><span class="toc-number">1.3.1.4.</span> <span class="toc-text">🌰 例句</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%8F%A0-%E5%90%8D%E8%AF%8D-%E5%9C%BA%E6%89%80-%E3%81%AB-%E5%90%8D%E8%AF%8D-%E7%89%A9-%E4%BA%BA-%E3%81%8C-%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99-%E3%81%84%E3%81%BE%E3%81%99-%E5%AD%98%E5%9C%A8%E7%84%A6%E7%82%B9%E5%8F%A5"><span class="toc-number">1.3.2.</span> <span class="toc-text">🏠 名词［场所］に 名词［物／人］が あります／います（存在焦点句）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%93%98-%E5%9F%BA%E6%9C%AC%E5%8F%A5%E5%9E%8B"><span class="toc-number">1.3.2.1.</span> <span class="toc-text">📘 基本句型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%92%A1-%E8%AF%AD%E6%B3%95%E8%A6%81%E7%82%B9"><span class="toc-number">1.3.2.2.</span> <span class="toc-text">💡 语法要点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%94%AC-%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3"><span class="toc-number">1.3.2.3.</span> <span class="toc-text">🔬 详细讲解</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%8C%B0-%E4%BE%8B%E5%8F%A5"><span class="toc-number">1.3.2.4.</span> <span class="toc-text">🌰 例句</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%A7%AD-%E3%81%AF-vs-%E3%81%8C-%E7%9A%84%E5%85%B3%E9%94%AE%E5%B7%AE%E5%BC%82"><span class="toc-number">1.3.2.5.</span> <span class="toc-text">🧭 は vs が 的关键差异</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%A4%9D-%E5%90%8D%E8%AF%8D-%E3%81%A8-%E5%90%8D%E8%AF%8D-%E5%B9%B6%E5%88%97-%E5%92%8C"><span class="toc-number">1.3.3.</span> <span class="toc-text">🤝 名词 と 名词（并列・“和”）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%93%98-%E5%9F%BA%E6%9C%AC%E5%8F%A5%E5%9E%8B"><span class="toc-number">1.3.3.1.</span> <span class="toc-text">📘 基本句型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%92%A1-%E8%AF%AD%E6%B3%95%E8%A6%81%E7%82%B9"><span class="toc-number">1.3.3.2.</span> <span class="toc-text">💡 语法要点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%94%AC-%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3"><span class="toc-number">1.3.3.3.</span> <span class="toc-text">🔬 详细讲解</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%8C%B0-%E4%BE%8B%E5%8F%A5"><span class="toc-number">1.3.3.4.</span> <span class="toc-text">🌰 例句</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%A7%AD-%E3%82%82-vs-%E3%81%A8-%E7%9A%84%E5%85%B3%E9%94%AE%E5%B7%AE%E5%BC%82"><span class="toc-number">1.3.3.5.</span> <span class="toc-text">🧭 も vs と 的关键差异</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%9A%AB-%E7%96%91%E9%97%AE%E8%AF%8D-%E3%82%82-%E5%8A%A8%E8%AF%8D-%E5%90%A6%E5%AE%9A-%E8%A1%A8%E7%A4%BA%E5%85%A8%E9%9D%A2%E5%90%A6%E5%AE%9A"><span class="toc-number">1.3.4.</span> <span class="toc-text">🚫 疑问词 も　动词 [否定]（表示全面否定）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%93%98-%E5%9F%BA%E6%9C%AC%E5%8F%A5%E5%9E%8B"><span class="toc-number">1.3.4.1.</span> <span class="toc-text">📘 基本句型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%92%A1-%E8%AF%AD%E6%B3%95%E8%A6%81%E7%82%B9"><span class="toc-number">1.3.4.2.</span> <span class="toc-text">💡 语法要点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%94%AC-%E8%AF%A6%E7%BB%86%E8%AE%B2%E8%A7%A3"><span class="toc-number">1.3.4.3.</span> <span class="toc-text">🔬 详细讲解</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%8C%B0-%E4%BE%8B%E5%8F%A5"><span class="toc-number">1.3.4.4.</span> <span class="toc-text">🌰 例句</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%92%A1-%E5%B8%B8%E8%A7%81%E7%BB%84%E5%90%88%E4%B8%80%E8%A7%88%E8%A1%A8"><span class="toc-number">1.3.4.5.</span> <span class="toc-text">💡 常见组合一览表</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%93%96-%E8%AF%BE%E6%96%87-%E4%BC%9A%E7%A4%BE%E3%81%AE%E5%A0%B4%E6%89%80"><span class="toc-number">1.4.</span> <span class="toc-text">📖 课文 会社の場所</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8C%B1-%E6%89%A9%E5%B1%95%E5%B0%8F%E7%9F%A5%E8%AF%86"><span class="toc-number">1.5.</span> <span class="toc-text">🌱 扩展小知识</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%A7%AD-%E6%96%B9%E4%BD%8D%E8%AF%8D%E4%B8%8E%E4%BD%8D%E7%BD%AE%E8%A1%A8%E8%BE%BE"><span class="toc-number">1.5.1.</span> <span class="toc-text">🧭 方位词与位置表达</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%F0%9F%92%A1-%E4%B8%8A-%E3%81%86%E3%81%88-%E7%9A%84%E8%8C%83%E5%9B%B4%E5%8C%BA%E5%88%AB"><span class="toc-number">1.5.1.1.</span> <span class="toc-text">💡「上（うえ）」的范围区别</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%97%A3-%E5%8F%A5%E6%9C%AB%E5%8A%A9%E8%AF%8D-%E3%81%AD-%E8%A1%A8%E7%A4%BA%E7%A1%AE%E8%AE%A4%E4%B8%8E%E5%90%8C%E6%84%8F"><span class="toc-number">1.5.2.</span> <span class="toc-text">🗣️ 句末助词「ね」——表示确认与同意</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%A4%94-%E3%81%88%E3%81%88%E3%81%A8-%E6%80%9D%E8%80%83%E6%97%B6%E7%9A%84%E7%BC%93%E5%86%B2%E8%AF%AD"><span class="toc-number">1.5.3.</span> <span class="toc-text">🤔 ええと —— 思考时的缓冲语</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%91%A8-%F0%9F%91%A9-%F0%9F%91%A7-%F0%9F%91%A6-%E6%95%AC%E8%AF%AD%E5%89%8D%E7%BC%80-%E3%81%94-%E5%9C%A8%E5%AE%B6%E5%BA%AD%E7%A7%B0%E5%91%BC%E4%B8%AD%E7%9A%84%E7%94%A8%E6%B3%95"><span class="toc-number">1.5.4.</span> <span class="toc-text">👨‍👩‍👧‍👦 敬语前缀「ご」在家庭称呼中的用法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%8F%8B-%E7%BB%83%E4%B9%A0"><span class="toc-number">1.6.</span> <span class="toc-text">🏋️ 练习</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%F0%9F%94%A8-%E9%80%A0%E5%8F%A5"><span class="toc-number">1.6.1.</span> <span class="toc-text">🔨 造句</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%93%9A-%E6%89%A9%E5%B1%95%E9%98%85%E8%AF%BB"><span class="toc-number">1.7.</span> <span class="toc-text">📚 扩展阅读</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/post/1f31575d.html" title="N5 スケジュール表（八）"><img src="https://oss.yiki.tech/jlpt/20260124170655634.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="N5 スケジュール表（八）"/></a><div class="content"><a class="title" href="/post/1f31575d.html" title="N5 スケジュール表（八）">N5 スケジュール表（八）</a><time datetime="2026-01-24T09:03:55.000Z" title="发表于 2026-01-24 17:03:55">2026-01-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/565fc693.html" title="N5 昼ご飯（七）"><img src="https://oss.yiki.tech/jlpt/20260123155800538.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="N5 昼ご飯（七）"/></a><div class="content"><a class="title" href="/post/565fc693.html" title="N5 昼ご飯（七）">N5 昼ご飯（七）</a><time datetime="2026-01-23T07:56:34.000Z" title="发表于 2026-01-23 15:56:34">2026-01-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/f72b4759.html" title="N5 交通機関（六）"><img src="https://oss.yiki.tech/jlpt/20260122054942868.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="N5 交通機関（六）"/></a><div class="content"><a class="title" href="/post/f72b4759.html" title="N5 交通機関（六）">N5 交通機関（六）</a><time datetime="2026-01-21T21:48:02.000Z" title="发表于 2026-01-22 05:48:02">2026-01-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/e82d20a1.html" title="N5 遅刻（五）"><img src="https://oss.yiki.tech/jlpt/20260121150138253.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="N5 遅刻（五）"/></a><div class="content"><a class="title" href="/post/e82d20a1.html" title="N5 遅刻（五）">N5 遅刻（五）</a><time datetime="2026-01-21T06:58:03.000Z" title="发表于 2026-01-21 14:58:03">2026-01-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/17739cea.html" title="第一单元复习"><img src="https://oss.yiki.tech/jlpt/20260120034816739.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="第一单元复习"/></a><div class="content"><a class="title" href="/post/17739cea.html" title="第一单元复习">第一单元复习</a><time datetime="2026-01-19T19:47:36.000Z" title="发表于 2026-01-20 03:47:36">2026-01-20</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2026  <i id="heartbeat" class="fa fas fa-heartbeat"></i> Guan FuQing</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div><link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css"></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><a class="icon-V hidden" onclick="switchNightMode()" title="浅色和深色模式转换"><svg width="25" height="25" viewBox="0 0 1024 1024"><use id="modeicon" xlink:href="#icon-moon"></use></svg></a><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://unpkg.com/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script><div class="js-pjax"><script>function loadValine () {
   function initValine () {
     const valine = new Valine(Object.assign({
       el: '#vcomment',
